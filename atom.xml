@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-02T02:48:39.224Z</updated>
+  <updated>2018-01-02T02:50:22.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>terminal-color-change</title>
+    <title>mac 终端美化</title>
     <link href="http://yoursite.com/2018/01/02/terminal-color-change/"/>
     <id>http://yoursite.com/2018/01/02/terminal-color-change/</id>
     <published>2018-01-02T02:35:56.000Z</published>
-    <updated>2018-01-02T02:48:39.224Z</updated>
+    <updated>2018-01-02T02:50:22.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="terminal-的颜色改变"><a href="#terminal-的颜色改变" class="headerlink" title="terminal 的颜色改变"></a>terminal 的颜色改变</h2><blockquote><p>mac中的terminal中的颜色太单一，当命令多的时候一种颜色很容易晃眼，经常自己都找不到自己的命令。所以搜索到了相对满意的结果，记录一下。</p><p>当然有很多其他方法，比如iterm，zsh…</p></blockquote><ol><li>通过终端偏好设置，选择自己喜欢主题，配色和字体大小等。</li><li>写配置文件</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim ~/.bash_profile</span><br></pre></td></tr></table></figure><ol><li><p>加入配置</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># for color</span></span><br><span class="line"><span class="built_in">export</span> CLICOLOR=1</span><br><span class="line"><span class="comment"># \h:\W \u\$</span></span><br><span class="line"><span class="built_in">export</span> PS1=<span class="string">'\[\033[01;33m\]\u@\h\[\033[01;31m\] \W\$\[\033[00m\] '</span></span><br><span class="line"><span class="comment"># grep</span></span><br><span class="line"><span class="built_in">alias</span> grep=<span class="string">'grep --color=always'</span></span><br></pre></td></tr></table></figure></li><li><p>保存文件</p></li><li><p>重新打开终端</p><p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-01-02-024438.png" alt=""></p></li></ol><h2 id="配置说明"><a href="#配置说明" class="headerlink" title="配置说明"></a>配置说明</h2><p>栗子🌰：</p><p>[\033[1;31m]</p><ul><li>底线：ANSI 色彩控制语法。\033 声明了转义序列的开始，然后是 [ 开始定义颜色。</li><li>第一组数字：亮度 (普通0, 高亮度1, 闪烁2)。</li><li>第二组数字：顏色代码。</li><li>颜色: 30=black 31=red 32=green 33=yellow 34=blue 35=magenta 36=cyan 37=white</li></ul><p>显示内容配置：</p><ul><li>\a     ASCII响铃字符 (07)</li><li>\d     “周 月 日”格式的日期</li><li>\D{format}   参数format被传递给strftime(3)来构造自定格式的时间并插入提示符中；该参数为空时根据本地化设置自动生成格式。</li><li>\e     ASCII转义字符（ESC) (033)</li><li>\h     主机名在第一个点号前的内容</li><li>\H     完全主机名</li><li>\j     shell当前管理的任务数</li><li>\l     shell终端设备的基本名称</li><li>\n     新行</li><li>\r     回车</li><li>\s     shell的名称，$0的基本名称</li><li>\t     当前时间（24小时） HH:MM:SS</li><li>\T     当前时间（12小时） HH:MM:SS</li><li>\@     当前时间（12小时） am/pm</li><li>\A     当前时间（24小时） HH:MM</li><li>\u     当前用户名称</li><li>\v     bash版本(如”2.00″)</li><li>\V     bash版本+补丁号(如”2.00.0″)</li><li>\w     当前工作目录</li><li>\W     当前工作目录的基本名称</li><li>!     该命令的历史数（在历史文件中的位置）</li><li>#     该命令的命令数（当前shell中执行的序列位置）</li><li>\$     根用户为”#”，其它用户为”$”</li><li>\nnn   8进制数</li><li>\     反斜杠</li><li>[     表示跟在后面的是非打印字符，可用于shell的颜色控制</li><li>]     表示非打印字符结束</li></ul>]]></content>
     
