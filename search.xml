@@ -3,6 +3,47 @@
   
     
     <entry>
+      <title><![CDATA[terminal-color-change]]></title>
+      <url>/2018/01/02/terminal-color-change/</url>
+      <content type="html"><![CDATA[<h2 id="terminal-的颜色改变"><a href="#terminal-的颜色改变" class="headerlink" title="terminal 的颜色改变"></a>terminal 的颜色改变</h2><blockquote>
+<p>mac中的terminal中的颜色太单一，当命令多的时候一种颜色很容易晃眼，经常自己都找不到自己的命令。所以搜索到了相对满意的结果，记录一下。</p>
+<p>当然有很多其他方法，比如iterm，zsh…</p>
+</blockquote>
+<ol>
+<li>通过终端偏好设置，选择自己喜欢主题，配色和字体大小等。</li>
+<li>写配置文件</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim ~/.bash_profile</span><br></pre></td></tr></table></figure>
+<ol>
+<li><p>加入配置</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># for color</span></span><br><span class="line"><span class="built_in">export</span> CLICOLOR=1</span><br><span class="line"><span class="comment"># \h:\W \u\$</span></span><br><span class="line"><span class="built_in">export</span> PS1=<span class="string">'\[\033[01;33m\]\u@\h\[\033[01;31m\] \W\$\[\033[00m\] '</span></span><br><span class="line"><span class="comment"># grep</span></span><br><span class="line"><span class="built_in">alias</span> grep=<span class="string">'grep --color=always'</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>保存文件</p>
+</li>
+<li><p>重新打开终端</p>
+<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-01-02-024438.png" alt=""></p>
+</li>
+</ol>
+]]></content>
+      
+        <categories>
+            
+            <category> 随笔 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> terminal </tag>
+            
+            <tag> 主题美化 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[git的基本命令学习]]></title>
       <url>/2017/12/31/git-cmd/</url>
       <content type="html"><![CDATA[<h2 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h2><p>在MacOS上安装x-code</p>
