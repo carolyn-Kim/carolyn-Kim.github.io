@@ -5,8 +5,7 @@
     <entry>
       <title><![CDATA[node和nginx在macos和linux的安装和一些部署要点]]></title>
       <url>/2018/01/28/node-nginx-install/</url>
-      <content type="html"><![CDATA[<p>##macos安装nginx</p>
-<ol>
+      <content type="html"><![CDATA[<h2 id="macos安装nginx"><a href="#macos安装nginx" class="headerlink" title="macos安装nginx"></a>macos安装nginx</h2><ol>
 <li><p>打开<a href="https://brew.sh/index_zh-cn.html" target="_blank" rel="noopener">https://brew.sh/index_zh-cn.html</a></p>
 </li>
 <li><p>brew search nginx 查找是否支持nginx</p>
