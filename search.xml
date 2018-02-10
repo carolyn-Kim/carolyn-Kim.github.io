@@ -3,61 +3,111 @@
   
     
     <entry>
+      <title><![CDATA[关于centos的一些基础命令汇合]]></title>
+      <url>/2018/02/10/nginx-settings/</url>
+      <content type="html"><![CDATA[<h2 id="centos7"><a href="#centos7" class="headerlink" title="centos7"></a>centos7</h2><h3 id="ip部分"><a href="#ip部分" class="headerlink" title="ip部分"></a>ip部分</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#安装ifconfig模块</span></span><br><span class="line">$ yum install net-tools</span><br><span class="line"></span><br><span class="line"><span class="comment">#打开网口</span></span><br><span class="line">$ vi /etc/sysconfig/network-scripts/ifcfg-eth0 </span><br><span class="line"><span class="comment">#把ONOBOOT设置为on</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#重启网络</span></span><br><span class="line">$ systemctl retart network.service </span><br><span class="line"><span class="comment">#或者</span></span><br><span class="line">$ systemctl restart network</span><br><span class="line"></span><br><span class="line"><span class="comment">#启动网络</span></span><br><span class="line">$ systemctl start network.service</span><br><span class="line"><span class="comment">#或</span></span><br><span class="line">$ systemctl start network</span><br><span class="line"></span><br><span class="line"><span class="comment">#停止网络</span></span><br><span class="line">$ systemctl stop network.service</span><br><span class="line"><span class="comment">#或</span></span><br><span class="line">$ systemctl stop network</span><br></pre></td></tr></table></figure>
+<h3 id="防火墙部分"><a href="#防火墙部分" class="headerlink" title="防火墙部分"></a>防火墙部分</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">#查看默认防火墙状态（关闭后显示notrunning，开启后显示running）</span></span><br><span class="line">$ firewall-cmd --state</span><br><span class="line"></span><br><span class="line"><span class="comment">#停止firewall</span></span><br><span class="line">$ systemctl stop firewalld.service</span><br><span class="line"></span><br><span class="line"><span class="comment">#开启firewall</span></span><br><span class="line">$ systemctl start firewalld.service</span><br><span class="line"></span><br><span class="line"><span class="comment">#关闭开机启动</span></span><br><span class="line">$ systemctl <span class="built_in">disable</span> firewalld.service</span><br><span class="line"></span><br><span class="line"><span class="comment">#开启开机启动</span></span><br><span class="line">$ systemctl <span class="built_in">enable</span> firewalld.service</span><br><span class="line">$$$$$</span><br></pre></td></tr></table></figure>
+<h3 id="etc部分"><a href="#etc部分" class="headerlink" title="etc部分"></a>etc部分</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#由于手贱乱改了profile文件，导致vi，yum，ls等命令都无法使用</span></span><br><span class="line">$ /bin/vi /etc/profile</span><br><span class="line"></span><br><span class="line"><span class="comment">#把文件改回原来的样子</span></span><br><span class="line">$ reboot <span class="comment">#重启</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#或者在命令行输入</span></span><br><span class="line">$ <span class="built_in">export</span> PATH=/bin:/usr/<span class="built_in">local</span>/sbin:/usr/<span class="built_in">local</span>/bin:/sbin:/bin:/usr/sbin:/usr/bin</span><br><span class="line"><span class="comment">#然后重新编辑profile文件即可。-------但未测试。同样的也要重启之后才会生效！</span></span><br></pre></td></tr></table></figure>
+<h3 id="scp部分"><a href="#scp部分" class="headerlink" title="scp部分"></a>scp部分</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#从服务器下载文件</span></span><br><span class="line">$ scp username@servername:/remote_path/filename ~/local_destination</span><br><span class="line">  </span><br><span class="line"><span class="comment">#上传本地文件到服务器</span></span><br><span class="line">$ scp ~/local_path/local_filename username@servername:/remote_path  </span><br><span class="line">    </span><br><span class="line"><span class="comment">#从服务器下载整个目录</span></span><br><span class="line">$ scp -r username@servername:/remote_path/remote_dir/ ~/local_destination</span><br><span class="line">  </span><br><span class="line"><span class="comment">#上传目录到服务器</span></span><br><span class="line">$ scp  -r ~/local_dir username@servername:/remote_path/remote_dir</span><br></pre></td></tr></table></figure>
+]]></content>
+      
+        <categories>
+            
+            <category> linux </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> linux </tag>
+            
+            <tag> centos7 </tag>
+            
+            <tag> centos </tag>
+            
+            <tag> nginx </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[node和nginx在macos和linux的安装和一些部署要点]]></title>
       <url>/2018/01/28/node-nginx-install/</url>
       <content type="html"><![CDATA[<h2 id="macos安装nginx"><a href="#macos安装nginx" class="headerlink" title="macos安装nginx"></a>macos安装nginx</h2><ol>
 <li><p>打开<a href="https://brew.sh/index_zh-cn.html" target="_blank" rel="noopener">https://brew.sh/index_zh-cn.html</a></p>
 </li>
-<li><p>brew search nginx 查找是否支持nginx</p>
+<li><p><code>brew search nginx</code> 查找是否支持nginx</p>
 </li>
-<li><p>brew install nginx 下载nginx</p>
+<li><p><code>brew install nginx</code> 下载nginx</p>
 </li>
-<li><p>brew info nginx    nginx版本的信息</p>
+<li><p><code>brew info nginx</code>    nginx版本的信息</p>
 </li>
-<li><p>nginx -v  查看 版本号</p>
+<li><p><code>nginx -v</code>  查看 版本号</p>
 </li>
-<li><p>启动sudo brew services start nginx(默认端口8080)</p>
+<li><p>启动s<code>udo brew services start nginx</code>(默认端口8080)</p>
 <ul>
 <li>备注：如果安装过jenkins 这里失败</li>
 </ul>
 </li>
 </ol>
 <ul>
-<li>sudo launchctl unload/Library/LaunchDaemons/org.jenkins-ci.plist 停掉 jenkins</li>
-<li>systemctl start jenkins 启动 jenkins</li>
+<li><code>sudo launchctl unload/Library/LaunchDaemons/org.jenkins-ci.plist</code> 停掉 jenkins</li>
+<li><code>systemctl start jenkins</code> 启动 jenkins</li>
 </ul>
 <ol>
-<li><p>关闭sudo brew servicesstop nginx</p>
+<li><p>关闭<code>sudo brew servicesstop nginx</code></p>
 </li>
-<li><p>打开Nginx具体安装目录 查看配置文件/usr/local/etc/nginx/</p>
+<li><p>打开Nginx具体安装目录 查看配置文件<code>/usr/local/etc/nginx/</code></p>
 </li>
-<li><p>验证配置文件 nginx -t -c 自己的配置文件地址</p>
+<li><p>验证配置文件 <code>nginx -t -c</code> 自己的配置文件地址</p>
 </li>
 <li><p>几条盖世绝学</p>
-<p>ps aux | grep nginx</p>
-<p>Lost -i tcp:8081 查看被占用端口</p>
-<p>kill -g pid 关闭进程</p>
-<p>ssh 用户名@地址</p>
-<p>scp source  root@ipaddress：/路径</p>
-<p>scp -r addvance/root@ipadderss：/xxx</p>
+<p><code>ps aux | grep nginx</code></p>
+<p><code>Lost -i tcp:8081</code> 查看被占用端口</p>
+<p><code>kill -g pid</code> 关闭进程</p>
+<p><code>ssh 用户名@地址</code></p>
+<p><code>scp source  root@ipaddress：/路径</code></p>
+<p><code>scp -r addvance/root@ipadderss：/xxx</code></p>
 </li>
 </ol>
-<h2 id="linux-安装nginx"><a href="#linux-安装nginx" class="headerlink" title="linux 安装nginx"></a>linux 安装nginx</h2><ol>
-<li>yum install wget</li>
-<li>wget -c  <a href="http://nginx.org/download/nginx-1.12.2.tar.gz" target="_blank" rel="noopener">http://nginx.org/download/nginx-1.12.2.tar.gz</a></li>
-<li>Tar -zxvf nginx-1.12.2.tar.gz</li>
-<li>cd nginx-1.12.2.tar.gz</li>
-<li>./configure —prefix = /usr/local/nginx  ——&gt;这边不写—prefix 默认就是/usrlocal/nginx。可以指定目录</li>
-<li>可能出现少模块，按照需求安装模块  如：yum install xxx-devel</li>
-<li>make</li>
-<li>Make install</li>
-<li>这样/usr/local/nginx下面就有了目录</li>
-<li>进入sbin 启动./nginx</li>
-<li>ps 查看终端<br>ps -ef 查看所有的进程<br>ps -ef | grep 过滤我想要查看的进程<br>ps -ef | grep nginx 查看 nginx的进程</li>
-<li>nginx -s reload、nginx-s stop</li>
-<li>服务器端的 nginx 地址 /usr/local/nginx/local/</li>
-<li>npm install —production 只负责加载上线环境</li>
-<li>pm2动态监测文件<ul>
+<h2 id="centos-安装nginx"><a href="#centos-安装nginx" class="headerlink" title="centos 安装nginx"></a>centos 安装nginx</h2><ol>
+<li><p><code>yum install wget</code></p>
+</li>
+<li><p><code>wget -c  http://nginx.org/download/nginx-1.12.2.tar.gz</code></p>
+</li>
+<li><p><code>Tar -zxvf nginx-1.12.2.tar.gz</code></p>
+</li>
+<li><p><code>cd nginx-1.12.2.tar.gz</code></p>
+</li>
+<li><p><code>./configure —prefix = /usr/local/nginx</code>  ——&gt;这边不写—prefix 默认就是/usrlocal/nginx。可以指定目录</p>
+</li>
+<li><p>可能无法编译，需要安装gcc模块。<code>yum install gcc</code></p>
+</li>
+<li><p>可能出现少模块，按照需求安装模块  如： <code>yum install pcre-devel</code></p>
+</li>
+<li><p>没有error,但是可能需要安装openssl</p>
+<p><code>yum install openssl openssl-devel</code></p>
+</li>
+<li><p><code>make</code></p>
+</li>
+<li><p><code>make install</code></p>
+</li>
+<li><p>这样<code>/usr/local/nginx</code>下面就有了目录</p>
+</li>
+<li><p>进入sbin 启动：<code>./nginx</code></p>
+</li>
+<li><p>ps 查看终端<br><code>ps -ef</code> 查看所有的进程<br><code>ps -ef | grep</code> 过滤我想要查看的进程<br><code>ps -ef | grep nginx</code> 查看 nginx的进程</p>
+</li>
+<li><p>重启：<code>nginx -s reload</code>、停止<code>nginx-s stop</code></p>
+</li>
+<li><p>服务器端的 nginx 地址 <code>/usr/local/nginx/local/</code></p>
+</li>
+<li><p><code>npm install —production</code> 只负责加载上线环境</p>
+</li>
+<li><p>pm2动态监测文件</p>
+<ul>
 <li>能够动态的监控文件的上传。0s热启动</li>
 <li>能够负载均衡CPU</li>
 <li>内存的使用 过多了 CPU调度太频繁 重启</li>
@@ -65,28 +115,32 @@
 </ul>
 </li>
 </ol>
+<h2 id="centos配置全局nginx"><a href="#centos配置全局nginx" class="headerlink" title="centos配置全局nginx"></a>centos配置全局nginx</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">$ vi /etc/profile</span><br><span class="line"></span><br><span class="line"><span class="comment">#在最后加上如下两段话</span></span><br><span class="line"><span class="comment">#nginx setting</span></span><br><span class="line"><span class="built_in">export</span> NGINX_HOME=/usr/<span class="built_in">local</span>/nginx</span><br><span class="line"><span class="built_in">export</span> PATH=<span class="variable">$NGINX_HOME</span>/sbin:<span class="variable">$PATH</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#保存后，退出后，执行</span></span><br><span class="line">$ <span class="built_in">source</span> /etc/profile	<span class="comment">#使配置生效</span></span><br></pre></td></tr></table></figure>
+<p><img src="https://ws1.sinaimg.cn/large/006tNc79gy1fobp6lkbq1j30k203qjrp.jpg" alt=""></p>
+<h2 id="nginx一些命令"><a href="#nginx一些命令" class="headerlink" title="nginx一些命令"></a>nginx一些命令</h2><p><img src="https://ws3.sinaimg.cn/large/006tNc79gy1fobpj7gy40j313c0ggjua.jpg" alt=""></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">1. -?, - h：显示帮助。</span><br><span class="line"></span><br><span class="line">2. -v：显示版本并退出。</span><br><span class="line"></span><br><span class="line">3. -V：显示版本和配置选项，然后退出。</span><br><span class="line"></span><br><span class="line">4. -t：测试配置并退出。</span><br><span class="line"></span><br><span class="line">5. -T：测试配置，转储并退出。</span><br><span class="line"></span><br><span class="line">6. -q：在配置测试期间禁止非错误消息。</span><br><span class="line"></span><br><span class="line">7. -s信号：向主进程发送信号：停止，退出，重新打开，重新加载。</span><br><span class="line"></span><br><span class="line">8. -p prefix：设置前缀路径（默认值：/ usr / <span class="built_in">local</span> / nginx /）。</span><br><span class="line"></span><br><span class="line">9. -c filename：设置配置文件（默认：conf / nginx.conf）。</span><br><span class="line"></span><br><span class="line">10. -g指令：从配置文件中设置全局指令。</span><br></pre></td></tr></table></figure>
 <h2 id="linux的node的安装"><a href="#linux的node的安装" class="headerlink" title="linux的node的安装"></a>linux的node的安装</h2><ol>
-<li><p>uname -a 查看Linux系统位数</p>
+<li><p><code>uname -a</code> 查看Linux系统位数</p>
 </li>
 <li><p>在官网按照系统下载nodejs程序包</p>
 </li>
 <li><p>上传至服务器，这边选择的路径是/usr/local/</p>
 </li>
 <li><p>解压</p>
-<p> tar -xvf   node-v6.10.0-linux-x64.tar.xz   </p>
+<p> <code>tar -xvf   node-v6.10.0-linux-x64.tar.xz</code>   </p>
 </li>
 <li><p>重命名文件夹</p>
-<p>mv node-v6.10.0-linux-x64  nodejs </p>
+<p><code>mv node-v6.10.0-linux-x64  nodejs</code> </p>
 </li>
 <li><p>确认一下nodejs下bin目录是否有node 和npm文件，如果有执行软连接，如果没有重新下载执行上边步骤</p>
 </li>
 <li><p>建立软连接，变为全局</p>
-<p>ln -s /usr/local/nodejs/bin/npm /usr/local/bin/ </p>
-<p>ln -s /usr/local/nodejs/bin/node /usr/local/bin/ </p>
+<p><code>ln -s /usr/local/nodejs/bin/npm /usr/local/bin/</code> </p>
+<p><code>ln -s /usr/local/nodejs/bin/node /usr/local/bin/</code> </p>
 </li>
 <li><p>检查是否配置成功</p>
-<p>node -v</p>
-<p>npm -v</p>
+<p><code>node -v</code></p>
+<p><code>npm -v</code></p>
 </li>
 </ol>
 ]]></content>
@@ -94,11 +148,11 @@
         
         <tags>
             
+            <tag> nginx </tag>
+            
             <tag> nodejs </tag>
             
             <tag> node </tag>
-            
-            <tag> nginx </tag>
             
             <tag> 上线部署 </tag>
             

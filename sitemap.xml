@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2018/02/10/nginx-settings/</loc>
+    
+    <lastmod>2018-02-10T14:34:34.468Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2018/01/28/node-nginx-install/</loc>
     
-    <lastmod>2018-01-28T14:30:17.153Z</lastmod>
+    <lastmod>2018-02-10T14:15:55.408Z</lastmod>
     
   </url>
   
