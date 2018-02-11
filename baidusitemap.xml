@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://yoursite.com/2018/02/11/ssh-nopwd/</loc>
-    <lastmod>2018-02-11T03:48:43.820Z</lastmod>
+    <lastmod>2018-02-11T03:52:39.000Z</lastmod>
     <data>
         <display>
         <title>Mac下配置ssh免密码登陆</title>
@@ -19,6 +19,9 @@
          
          
            
+             
+              <breadCrumb title="Linux" url="http://yoursite.com/categories/Linux/"/>
+          
         </display>
     </data>
     </url>
