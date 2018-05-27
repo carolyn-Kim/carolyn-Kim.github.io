@@ -3,6 +3,36 @@
   
     
     <entry>
+      <title><![CDATA[切换bash和zsh]]></title>
+      <url>/2018/05/27/change-bash-zsh/</url>
+      <content type="html"><![CDATA[<h1 id="MAC-OS下切换默认终端为zsh"><a href="#MAC-OS下切换默认终端为zsh" class="headerlink" title="MAC OS下切换默认终端为zsh"></a>MAC OS下切换默认终端为zsh</h1><h2 id="默认为bash"><a href="#默认为bash" class="headerlink" title="默认为bash"></a>默认为bash</h2><p>mac os 系统默认的终端为bash，切换该终端为zsh，可以用以下命令</p>
+<p><code>chsh -s /bin/zsh</code></p>
+<h2 id="默认为zsh"><a href="#默认为zsh" class="headerlink" title="默认为zsh"></a>默认为zsh</h2><p>如过要切回默认终端bash则使用以下命令</p>
+<p><code>chsh -s /bin/bash</code></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 随笔 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> terminal </tag>
+            
+            <tag> xterm2 </tag>
+            
+            <tag> 主题美化 </tag>
+            
+            <tag> zsh </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[终端中设置彩色的欢迎图案]]></title>
       <url>/2018/05/27/bash-color/</url>
       <content type="html"><![CDATA[<h1 id="终端中设置彩色的欢迎图案"><a href="#终端中设置彩色的欢迎图案" class="headerlink" title="终端中设置彩色的欢迎图案"></a>终端中设置彩色的欢迎图案</h1><h2 id="先附上效果图"><a href="#先附上效果图" class="headerlink" title="先附上效果图"></a>先附上效果图</h2><p><img src="http://p1pkipn2k.bkt.clouddn.com/WX20180527-171933@2x.png" alt="效果图"></p>

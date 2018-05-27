@@ -4,6 +4,32 @@
 
     
   <url>
+    <loc>http://yoursite.com/2018/05/27/change-bash-zsh/</loc>
+    <lastmod>2018-05-27T13:22:41.098Z</lastmod>
+    <data>
+        <display>
+        <title>切换bash和zsh</title>
+        <pubTime>2018-05-27T13:20:40.000Z</pubTime>
+        
+        <tag>terminal</tag>
+         
+        <tag>xterm2</tag>
+         
+        <tag>主题美化</tag>
+         
+        <tag>zsh</tag>
+         
+         
+           
+             
+              <breadCrumb title="随笔" url="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2018/05/27/bash-color/</loc>
     <lastmod>2018-05-27T12:22:55.654Z</lastmod>
     <data>

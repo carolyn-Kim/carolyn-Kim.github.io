@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-05-27T12:22:55.654Z</updated>
+  <updated>2018-05-27T13:22:41.098Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>切换bash和zsh</title>
+    <link href="http://yoursite.com/2018/05/27/change-bash-zsh/"/>
+    <id>http://yoursite.com/2018/05/27/change-bash-zsh/</id>
+    <published>2018-05-27T13:20:40.000Z</published>
+    <updated>2018-05-27T13:22:41.098Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="MAC-OS下切换默认终端为zsh"><a href="#MAC-OS下切换默认终端为zsh" class="headerlink" title="MAC OS下切换默认终端为zsh"></a>MAC OS下切换默认终端为zsh</h1><h2 id="默认为bash"><a href="#默认为bash" class="headerlink" title="默认为bash"></a>默认为bash</h2><p>mac os 系统默认的终端为bash，切换该终端为zsh，可以用以下命令</p><p><code>chsh -s /bin/zsh</code></p><h2 id="默认为zsh"><a href="#默认为zsh" class="headerlink" title="默认为zsh"></a>默认为zsh</h2><p>如过要切回默认终端bash则使用以下命令</p><p><code>chsh -s /bin/bash</code></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;MAC-OS下切换默认终端为zsh&quot;&gt;&lt;a href=&quot;#MAC-OS下切换默认终端为zsh&quot; class=&quot;headerlink&quot; title=&quot;MAC OS下切换默认终端为zsh&quot;&gt;&lt;/a&gt;MAC OS下切换默认终端为zsh&lt;/h1&gt;&lt;h2 id=&quot;默认为ba
+      
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="terminal" scheme="http://yoursite.com/tags/terminal/"/>
+    
+      <category term="xterm2" scheme="http://yoursite.com/tags/xterm2/"/>
+    
+      <category term="主题美化" scheme="http://yoursite.com/tags/%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/"/>
+    
+      <category term="zsh" scheme="http://yoursite.com/tags/zsh/"/>
+    
+  </entry>
   
   <entry>
     <title>终端中设置彩色的欢迎图案</title>
