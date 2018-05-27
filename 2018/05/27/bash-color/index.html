@@ -78,7 +78,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="linux,Mac,ssh," />
+  <meta name="keywords" content="terminal,xterm2,主题美化,欢迎图案," />
 
 
 
@@ -96,21 +96,24 @@
 
 
 
-<meta name="description" content="Mac下配置ssh免密码登陆环境准备本机：macpro 服务器：centos7 操作步骤本机操作 创建本机的公钥和私钥，使用命令ssh-keygen 1234567891011121314151617181920$ ssh-keygen -t rsa -C &quot;kim&quot; -f &quot;kim_rsa&quot;Generating public/private rsa key pair.Enter passphra">
-<meta name="keywords" content="linux,Mac,ssh">
+<meta name="description" content="终端中设置彩色的欢迎图案先附上效果图 设置图案配置方法  打开终端（可以command+空格键，然后输入ter自动打开终端）； 输入 cd /etc； 输入 sudo pico motd； 然后将想要输入的图案或文字在终端中粘贴； 最后，按键：control+x ,再按y回车保存。  附上自己的图案 12345678  ／＼／＼ (_人｜人_)   ／‥ ＼ ミ(_Ｙ_)ミ    ＞ ＜   (／">
+<meta name="keywords" content="terminal,xterm2,主题美化,欢迎图案">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Mac下配置ssh免密码登陆">
-<meta property="og:url" content="http://yoursite.com/2018/02/11/ssh-nopwd/index.html">
+<meta property="og:title" content="bash-color">
+<meta property="og:url" content="http://yoursite.com/2018/05/27/bash-color/index.html">
 <meta property="og:site_name" content="KimMUMU&#39;s blog">
-<meta property="og:description" content="Mac下配置ssh免密码登陆环境准备本机：macpro 服务器：centos7 操作步骤本机操作 创建本机的公钥和私钥，使用命令ssh-keygen 1234567891011121314151617181920$ ssh-keygen -t rsa -C &quot;kim&quot; -f &quot;kim_rsa&quot;Generating public/private rsa key pair.Enter passphra">
+<meta property="og:description" content="终端中设置彩色的欢迎图案先附上效果图 设置图案配置方法  打开终端（可以command+空格键，然后输入ter自动打开终端）； 输入 cd /etc； 输入 sudo pico motd； 然后将想要输入的图案或文字在终端中粘贴； 最后，按键：control+x ,再按y回车保存。  附上自己的图案 12345678  ／＼／＼ (_人｜人_)   ／‥ ＼ ミ(_Ｙ_)ミ    ＞ ＜   (／">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="https://ws1.sinaimg.cn/large/006tKfTcgy1focchp6wncj30u204ggm5.jpg">
-<meta property="og:image" content="https://ws2.sinaimg.cn/large/006tKfTcgy1foccyinho0j30sk05mgm6.jpg">
-<meta property="og:updated_time" content="2018-02-11T03:52:39.000Z">
+<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/WX20180527-171933@2x.png">
+<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/WX20180527-200252@2x.png">
+<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/2148762324-5a4b00a43cb4b.png">
+<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/Xterm_color_chart.png">
+<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/WX20180527-200230@2x.png">
+<meta property="og:updated_time" content="2018-05-27T12:21:18.338Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Mac下配置ssh免密码登陆">
-<meta name="twitter:description" content="Mac下配置ssh免密码登陆环境准备本机：macpro 服务器：centos7 操作步骤本机操作 创建本机的公钥和私钥，使用命令ssh-keygen 1234567891011121314151617181920$ ssh-keygen -t rsa -C &quot;kim&quot; -f &quot;kim_rsa&quot;Generating public/private rsa key pair.Enter passphra">
-<meta name="twitter:image" content="https://ws1.sinaimg.cn/large/006tKfTcgy1focchp6wncj30u204ggm5.jpg">
+<meta name="twitter:title" content="bash-color">
+<meta name="twitter:description" content="终端中设置彩色的欢迎图案先附上效果图 设置图案配置方法  打开终端（可以command+空格键，然后输入ter自动打开终端）； 输入 cd /etc； 输入 sudo pico motd； 然后将想要输入的图案或文字在终端中粘贴； 最后，按键：control+x ,再按y回车保存。  附上自己的图案 12345678  ／＼／＼ (_人｜人_)   ／‥ ＼ ミ(_Ｙ_)ミ    ＞ ＜   (／">
+<meta name="twitter:image" content="http://p1pkipn2k.bkt.clouddn.com/WX20180527-171933@2x.png">
 
 
 
@@ -139,13 +142,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/02/11/ssh-nopwd/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/05/27/bash-color/"/>
 
 
 
 
 
-  <title>Mac下配置ssh免密码登陆 | KimMUMU's blog</title>
+  <title>bash-color | KimMUMU's blog</title>
   
 
 
@@ -312,7 +315,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/02/11/ssh-nopwd/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/27/bash-color/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="KimMUMU">
@@ -329,7 +332,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Mac下配置ssh免密码登陆</h1>
+          <h1 class="post-title" itemprop="name headline">bash-color</h1>
         
 
         <div class="post-meta">
@@ -341,8 +344,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-02-11T11:45:17+08:00">
-                2018-02-11
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-27T20:19:20+08:00">
+                2018-05-27
               </time>
             
 
@@ -364,8 +367,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Linux/" itemprop="url" rel="index">
-                    <span itemprop="name">Linux</span>
+                  <a href="/categories/随笔/" itemprop="url" rel="index">
+                    <span itemprop="name">随笔</span>
                   </a>
                 </span>
 
@@ -381,7 +384,7 @@
 
           
           
-             <span id="/2018/02/11/ssh-nopwd/" class="leancloud_visitors" data-flag-title="Mac下配置ssh免密码登陆">
+             <span id="/2018/05/27/bash-color/" class="leancloud_visitors" data-flag-title="bash-color">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -414,71 +417,207 @@
       
 
       
-        <h1 id="Mac下配置ssh免密码登陆"><a href="#Mac下配置ssh免密码登陆" class="headerlink" title="Mac下配置ssh免密码登陆"></a>Mac下配置ssh免密码登陆</h1><h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><p>本机：macpro</p>
-<p>服务器：centos7</p>
-<h2 id="操作步骤"><a href="#操作步骤" class="headerlink" title="操作步骤"></a>操作步骤</h2><h3 id="本机操作"><a href="#本机操作" class="headerlink" title="本机操作"></a>本机操作</h3><ol>
-<li><p>创建本机的公钥和私钥，使用命令ssh-keygen</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C <span class="string">"kim"</span> -f <span class="string">"kim_rsa"</span></span><br><span class="line">Generating public/private rsa key pair.</span><br><span class="line">Enter passphrase (empty <span class="keyword">for</span> no passphrase): 	<span class="comment">#回车</span></span><br><span class="line">Enter same passphrase again: 	<span class="comment">#回车</span></span><br><span class="line">Your identification has been saved <span class="keyword">in</span> kim_rsa.</span><br><span class="line">Your public key has been saved <span class="keyword">in</span> kim_rsa.pub.</span><br><span class="line">The key fingerprint is:</span><br><span class="line">SHA256:hflx6YALRHsFH8ka/y45ugIIsfPxZ3q+ccwm2cBgZx0 kim</span><br><span class="line">The key<span class="string">'s randomart image is:</span></span><br><span class="line"><span class="string">+---[RSA 2048]----+</span></span><br><span class="line"><span class="string">|     .o Eoo.     |</span></span><br><span class="line"><span class="string">|.    . o.Bo. .   |</span></span><br><span class="line"><span class="string">| o  o = *+= o    |</span></span><br><span class="line"><span class="string">|+ .. = o.+.=     |</span></span><br><span class="line"><span class="string">| + +  o S ...    |</span></span><br><span class="line"><span class="string">|  o o o*    .    |</span></span><br><span class="line"><span class="string">|     =+ *  o     |</span></span><br><span class="line"><span class="string">|    . o=  + .    |</span></span><br><span class="line"><span class="string">|     ooooo o     |</span></span><br><span class="line"><span class="string">+----[SHA256]-----+</span></span><br></pre></td></tr></table></figure>
-<p>其中</p>
+        <h1 id="终端中设置彩色的欢迎图案"><a href="#终端中设置彩色的欢迎图案" class="headerlink" title="终端中设置彩色的欢迎图案"></a>终端中设置彩色的欢迎图案</h1><h2 id="先附上效果图"><a href="#先附上效果图" class="headerlink" title="先附上效果图"></a>先附上效果图</h2><p><img src="http://p1pkipn2k.bkt.clouddn.com/WX20180527-171933@2x.png" alt="效果图"></p>
+<h2 id="设置图案"><a href="#设置图案" class="headerlink" title="设置图案"></a>设置图案</h2><p>配置方法</p>
 <ul>
-<li>-t表示用哪种加密算法，一般使用rsa非堆成加密算法</li>
-<li>-C表示身份，需要用“”来写</li>
-<li>-f表示密钥输出的文件名，也需要用“”来写</li>
+<li>打开终端（可以command+空格键，然后输入ter自动打开终端）；</li>
+<li>输入 cd /etc；</li>
+<li>输入 sudo pico motd；</li>
+<li>然后将想要输入的图案或文字在终端中粘贴；</li>
+<li>最后，按键：control+x ,再按y回车保存。</li>
 </ul>
-<p>当然也可以直接用<code>ssh-keygen -t rsa</code>来生成，但是可能会有重复的问题，一般最好就是设置身份和文件名</p>
-<p>完成命令后，会在当前目录下生成两个文件</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">kim_rsa		<span class="comment">#生成的私钥文件，小心保存，不要泄漏</span></span><br><span class="line">kim_rsa.pub	<span class="comment">#生成的公钥文件</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>使私钥文件中本地生效</p>
+<p>附上自己的图案</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">  ／＼／＼</span><br><span class="line"> (_人｜人_)</span><br><span class="line">   ／‥ ＼</span><br><span class="line"> ミ(_Ｙ_)ミ</span><br><span class="line">    ＞ ＜</span><br><span class="line">   (／ ＼)</span><br><span class="line">  &lt;_(   )_&gt;</span><br><span class="line">(＿＞ ― ＜＿)   保佑，永无bug!</span><br></pre></td></tr></table></figure>
+<h2 id="设置颜色"><a href="#设置颜色" class="headerlink" title="设置颜色"></a>设置颜色</h2><h3 id="ANSI-Escape-code"><a href="#ANSI-Escape-code" class="headerlink" title="ANSI Escape code"></a>ANSI Escape code</h3><p>终端用于文本字符的输入和输出，ASCII编码中有些字符是不能用来打印显示的，比如<code>&#39;\a&#39; 0x7</code>代表响铃，<code>&#39;\n&#39; 0x0A</code> 代表换行，这些字符被称为控制符。</p>
+<p>今天我们认识一个新的控制符 <code>&#39;\e&#39; 0x1B</code>，这个字符代表 <code>ESC</code> ，即键盘上 <code>ESC</code> 按键的作用。<code>ESC</code> 是单词 escape 的缩写，即逃逸的意思。文本中出现这个转义字符，代表其后方的字符是ANSI Escape code编码。</p>
+<p>ANSI Escape code编码中有专门控制字符颜色的控制符，例如：<code>\e[37;44;4;1m</code></p>
 <ul>
-<li>把第一步生成的文件复制到你home目录下的.ssh文件夹目录下</li>
-<li>配置的你私钥文件的访问权限为600</li>
+<li><code>\e</code> 代表开始ANSI Escape code</li>
+<li><code>[</code> 代表转义序列开始符 CSI，Control Sequence Introducer</li>
+<li><code>37;44;4;1</code> 代表以<code>;</code> 分隔的文本样式控制符，其中 37 代表文本前景色为白色，44代表背景为蓝色，4代表下划线，1代表加粗</li>
+<li><code>m</code> 代表结束控制符序列</li>
 </ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> <span class="comment">#进入home目录下</span></span><br><span class="line">$ <span class="built_in">cd</span> .ssh <span class="comment">#进入ssh目录</span></span><br><span class="line">$ chmod 600 kim_rsa <span class="comment">#更改私钥文件的权限为600</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>把本机中的公钥文件复制到服务器中的.ssh/路径下</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ scp kim_rsa.pub root@ip_address:/root/.ssh</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h3 id="服务器操作"><a href="#服务器操作" class="headerlink" title="服务器操作"></a>服务器操作</h3><ol>
-<li><p>登陆到服务器中，进入.ssh/路径下，就能看见刚刚复制过来的本机的公钥文件</p>
-<p>ps：</p>
+<p>运行命令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> -e <span class="string">"\e[37;44;4;1mMCC\e[0m"</span></span><br></pre></td></tr></table></figure>
+<p>因为 <code>\e</code> 控制符的16进制码为 <code>0x1B</code> ， 8 进制码为 <code>033</code> ，所以以下表示方式等价：</p>
 <ul>
-<li><p>如果服务器中没有.ssh文件夹，就自己创建一个</p>
-</li>
-<li><p>创建后，要更改文件的权限为700</p>
-</li>
-<li><p>公钥文件的权限为644</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir .ssh</span><br><span class="line">$ chmod 700 .ssh/</span><br></pre></td></tr></table></figure>
-</li>
+<li><code>\e[37;44;4;1mMCC\e[0m</code></li>
+<li><code>\x1b[37;44;4;1mMCC\x1b[0m</code></li>
+<li><code>\x1B[37;44;4;1mMCC\x1B[0m</code></li>
+<li><code>\033[37;44;4;1mMCC\033[0m</code></li>
 </ul>
-</li>
-<li><p>使公钥文件中服务器中生效</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ cat kim_rsa.pub &gt;&gt; authorized_keys <span class="comment">#把公钥信息追加到authorized_keys文件中</span></span><br><span class="line">$ chmod 644 authorized_keys <span class="comment">#authorized_keys文件的权限也要为644</span></span><br></pre></td></tr></table></figure>
-<p><img src="https://ws1.sinaimg.cn/large/006tKfTcgy1focchp6wncj30u204ggm5.jpg" alt=""></p>
-</li>
-<li><p>这样就完成了公钥的生效，退回到本机</p>
-</li>
-</ol>
-<h3 id="继续本机操作"><a href="#继续本机操作" class="headerlink" title="继续本机操作"></a>继续本机操作</h3><ol>
-<li><p>在.ssh/目录下会有一个known_hosts(远端服务器指纹)文件，这个文件是自动生成的。当你第一次登陆服务器的时候会有询问。<strong>有一个坑的地方，当你ip更换了，免密不能登陆的时候，把文件中把ip相对应的那一条删除，保存，重新登陆，重新生成，即可。</strong></p>
-</li>
-<li><p>这个时候如果上述步骤都正确完成的时候，可以使用<code>ssh -i .ssh/kim_rsa ipaddress</code>来进行免密登陆。<strong>ps：用户名相对应，才可以</strong></p>
-<p>​</p>
-</li>
-</ol>
-<h4 id="别名设置"><a href="#别名设置" class="headerlink" title="别名设置"></a>别名设置</h4><ol>
-<li><p>在.ssh/路径下检查是否存在一个<strong>config</strong>文件，如果不存在就创建一个</p>
-</li>
-<li><p>编辑config文件，添加以下内容，保存并关闭：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#单主机配置</span></span><br><span class="line">Host kim	<span class="comment">#别名</span></span><br><span class="line">User root	<span class="comment">#用户</span></span><br><span class="line">Port 22		<span class="comment">#端口，默认为22</span></span><br><span class="line">HostName IP或网址	<span class="comment">#服务器地址</span></span><br><span class="line">IdentityFile ~/.ssh/kim_rsa	<span class="comment">#私钥文件</span></span><br><span class="line">Protocol 2</span><br><span class="line">Compression yes</span><br><span class="line">ServerAliveInterval 60</span><br><span class="line">ServerAliveCountMax 20</span><br><span class="line">LogLevel INFO</span><br><span class="line"></span><br><span class="line"><span class="comment"># 多主机配置</span></span><br><span class="line">Host gateway-produce</span><br><span class="line">HostName IP或网址</span><br><span class="line">Port 22</span><br><span class="line">Host node-produce</span><br><span class="line">HostName IP或网址</span><br><span class="line">Port 22</span><br><span class="line">Host java-produce</span><br><span class="line">HostName IP或网址</span><br><span class="line">Port 22</span><br><span class="line"></span><br><span class="line">Host *-produce</span><br><span class="line">User root</span><br><span class="line">IdentityFile ~/.ssh/produce_key_rsa</span><br><span class="line">Protocol 2</span><br><span class="line">Compression yes</span><br><span class="line">ServerAliveInterval 60</span><br><span class="line">ServerAliveCountMax 20</span><br><span class="line">LogLevel INFO</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>配置config文件的访问权限为644</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ chomd 644 config</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h3 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h3><p>以上就能使用别名，免密码登陆ssh啦！</p>
-<p><img src="https://ws2.sinaimg.cn/large/006tKfTcgy1foccyinho0j30sk05mgm6.jpg" alt=""></p>
+<p>这里我们使用最后一种8进制码(下文内容均使用8进制码)</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> -e <span class="string">"\033[37;44;4;1mMCC\033[0m"</span></span><br></pre></td></tr></table></figure>
+<p><img src="http://p1pkipn2k.bkt.clouddn.com/WX20180527-200252@2x.png" alt=""></p>
+<h3 id="常用文本样式控制符"><a href="#常用文本样式控制符" class="headerlink" title="常用文本样式控制符"></a>常用文本样式控制符</h3><table>
+<thead>
+<tr>
+<th>编码</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>重置、清除样式</td>
+</tr>
+<tr>
+<td>1</td>
+<td>加粗</td>
+</tr>
+<tr>
+<td>3</td>
+<td>斜体</td>
+</tr>
+<tr>
+<td>4</td>
+<td>下划线</td>
+</tr>
+<tr>
+<td>5</td>
+<td>闪烁</td>
+</tr>
+<tr>
+<td>8</td>
+<td>隐藏</td>
+</tr>
+<tr>
+<td>30~37</td>
+<td>前景色，参考下文 《1 位颜色编码》</td>
+</tr>
+<tr>
+<td>38</td>
+<td>设置前景色，后跟<code>5;n</code>代表使用8位256颜色码，后跟<code>2;r;g;b</code>代表24位RGB颜色码</td>
+</tr>
+<tr>
+<td>40~47</td>
+<td>背景色《1 位颜色编码》</td>
+</tr>
+<tr>
+<td>48</td>
+<td>设置背景色，后跟<code>5;n</code>代表使用8位256颜色码，后跟<code>2;r;g;b</code>代表24位RGB颜色码</td>
+</tr>
+<tr>
+<td>90~97</td>
+<td>亮色前景色，参考下文 《1 位颜色编码》</td>
+</tr>
+<tr>
+<td>100~107</td>
+<td>亮色背景，参考下文 《1 位颜色编码》</td>
+</tr>
+</tbody>
+</table>
+<h4 id="1位颜色编码"><a href="#1位颜色编码" class="headerlink" title="1位颜色编码"></a>1位颜色编码</h4><table>
+<thead>
+<tr>
+<th>颜色</th>
+<th>前景色编码</th>
+<th>背景色编码</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>黑色</td>
+<td>30</td>
+<td>40</td>
+</tr>
+<tr>
+<td>红色</td>
+<td>31</td>
+<td>41</td>
+</tr>
+<tr>
+<td>绿色</td>
+<td>32</td>
+<td>42</td>
+</tr>
+<tr>
+<td>黄色</td>
+<td>33</td>
+<td>43</td>
+</tr>
+<tr>
+<td>蓝色</td>
+<td>34</td>
+<td>44</td>
+</tr>
+<tr>
+<td>品红色</td>
+<td>35</td>
+<td>45</td>
+</tr>
+<tr>
+<td>青色</td>
+<td>36</td>
+<td>46</td>
+</tr>
+<tr>
+<td>白色 (灰)</td>
+<td>37</td>
+<td>47</td>
+</tr>
+<tr>
+<td>亮黑色 (灰)</td>
+<td>90</td>
+<td>100</td>
+</tr>
+<tr>
+<td>亮红色</td>
+<td>91</td>
+<td>101</td>
+</tr>
+<tr>
+<td>亮绿色</td>
+<td>92</td>
+<td>102</td>
+</tr>
+<tr>
+<td>亮黄色</td>
+<td>93</td>
+<td>103</td>
+</tr>
+<tr>
+<td>亮蓝色</td>
+<td>94</td>
+<td>104</td>
+</tr>
+<tr>
+<td>亮品红色</td>
+<td>95</td>
+<td>105</td>
+</tr>
+<tr>
+<td>亮青色</td>
+<td>96</td>
+<td>106</td>
+</tr>
+<tr>
+<td>亮白色</td>
+<td>97</td>
+<td>107</td>
+</tr>
+</tbody>
+</table>
+<h4 id="8位-256颜色码"><a href="#8位-256颜色码" class="headerlink" title="8位 256颜色码"></a>8位 256颜色码</h4><p><img src="http://p1pkipn2k.bkt.clouddn.com/2148762324-5a4b00a43cb4b.png" alt="256-color-mode tabale"></p>
+<h4 id="xterm-256颜色码"><a href="#xterm-256颜色码" class="headerlink" title="xterm 256颜色码"></a>xterm 256颜色码</h4><p><img src="http://p1pkipn2k.bkt.clouddn.com/Xterm_color_chart.png" alt="xterm颜色"></p>
+<h4 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h4><p><code>\033[31m</code> 红色</p>
+<p><code>\033[38;5;31mA</code> 8位表示青色</p>
+<p><code>\033[31;5;1;4m</code> 闪烁的红色加粗带下划线字体</p>
+<p><img src="http://p1pkipn2k.bkt.clouddn.com/WX20180527-200230@2x.png" alt=""></p>
+<h3 id="设置方法1"><a href="#设置方法1" class="headerlink" title="设置方法1"></a>设置方法1</h3><p>可以编写一个sh文件，来完成有颜色的图案的产生</p>
+<h4 id="sh文件示例："><a href="#sh文件示例：" class="headerlink" title="sh文件示例："></a>sh文件示例：</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="comment"># Message of the Day filename</span></span><br><span class="line">MOTD=<span class="string">"/etc/motd"</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Text Color Variables</span></span><br><span class="line">CY1=<span class="string">"\033[38;5;196m"</span>    <span class="comment">#颜色可以自己定义</span></span><br><span class="line">CY2=<span class="string">"\033[38;5;197m"</span>    </span><br><span class="line">CY3=<span class="string">"\033[38;5;198m"</span>    </span><br><span class="line">CY4=<span class="string">"\033[38;5;199m"</span>    </span><br><span class="line">CY5=<span class="string">"\033[38;5;210m"</span>    </span><br><span class="line">CY6=<span class="string">"\033[38;5;209m"</span>    </span><br><span class="line">CY7=<span class="string">"\033[38;5;208m"</span>    </span><br><span class="line">CY8=<span class="string">"\033[38;5;172m"</span>    </span><br><span class="line"></span><br><span class="line"></span><br><span class="line">RESET=<span class="string">"\033[0m"</span></span><br><span class="line"></span><br><span class="line">clear &gt; <span class="variable">$MOTD</span>        <span class="comment"># removes all text from /etc/motd</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> -e <span class="string">""</span> &gt;&gt; <span class="variable">$MOTD</span></span><br><span class="line"><span class="built_in">echo</span> -e <span class="variable">$CY1</span><span class="string">"   ／＼／＼"</span> &gt;&gt; <span class="variable">$MOTD</span>	<span class="comment">#一行一个颜色一个图案</span></span><br><span class="line"><span class="built_in">echo</span> -e <span class="variable">$CY2</span><span class="string">"  (_人｜人_)"</span> &gt;&gt; <span class="variable">$MOTD</span></span><br><span class="line"><span class="built_in">echo</span> -e <span class="variable">$CY3</span><span class="string">"    ／‥ ＼"</span> &gt;&gt; <span class="variable">$MOTD</span></span><br><span class="line"><span class="built_in">echo</span> -e <span class="variable">$CY4</span><span class="string">"  ミ(_Ｙ_)ミ"</span> &gt;&gt; <span class="variable">$MOTD</span></span><br><span class="line"><span class="built_in">echo</span> -e <span class="variable">$CY5</span><span class="string">"     ＞ ＜"</span> &gt;&gt; <span class="variable">$MOTD</span></span><br><span class="line"><span class="built_in">echo</span> -e <span class="variable">$CY6</span><span class="string">"    (／ ＼)"</span> &gt;&gt; <span class="variable">$MOTD</span></span><br><span class="line"><span class="built_in">echo</span> -e <span class="variable">$CY7</span><span class="string">"   &lt;_(   )_&gt;"</span> &gt;&gt; <span class="variable">$MOTD</span></span><br><span class="line"><span class="built_in">echo</span> -e <span class="variable">$CY8</span><span class="string">" (＿＞ ― ＜＿)   保佑，永无bug!"</span> &gt;&gt; <span class="variable">$MOTD</span></span><br><span class="line"><span class="built_in">echo</span> -e <span class="string">""</span> &gt;&gt; <span class="variable">$MOTD</span></span><br><span class="line"><span class="built_in">echo</span> -e <span class="variable">$RESET</span> &gt;&gt; <span class="variable">$MOTD</span></span><br></pre></td></tr></table></figure>
+<p>保存后，执行文件</p>
+<ul>
+<li>注意文件的权限，要加上chmod u+x file.sh</li>
+<li>执行的时候加上sudo，即：sudo ./file.sh</li>
+</ul>
+<h3 id="设置方法2"><a href="#设置方法2" class="headerlink" title="设置方法2"></a>设置方法2</h3><p>可以直接更改/ect/motd</p>
+<p>在图案前面加上<code>^[[38;5;196m</code>（按照上述的颜色表对照）各种颜色的设置也是可以达到要求的</p>
+<h2 id="附录"><a href="#附录" class="headerlink" title="附录"></a>附录</h2><p>各种字符图案网址：<a href="http://www.asciiworld.com" target="_blank" rel="noopener">http://www.asciiworld.com</a></p>
+<p>参考资料：<a href="https://segmentfault.com/a/1190000012666612" target="_blank" rel="noopener">https://segmentfault.com/a/1190000012666612</a></p>
+<p>参考资料：<a href="http://unixrevolution.blogspot.com/2011/11/motd-with-colors-also-applies-to-shell.html" target="_blank" rel="noopener">http://unixrevolution.blogspot.com/2011/11/motd-with-colors-also-applies-to-shell.html</a></p>
+<p>参考资料：<a href="http://midactstech.blogspot.com/2013/11/how-to-add-color-to-your-motd.html" target="_blank" rel="noopener">http://midactstech.blogspot.com/2013/11/how-to-add-color-to-your-motd.html</a></p>
+<p>色卡表：<a href="https://jonasjacek.github.io/colors/" target="_blank" rel="noopener">https://jonasjacek.github.io/colors/</a></p>
 
       
     </div>
@@ -496,11 +635,13 @@
       
         <div class="post-tags">
           
-            <a href="/tags/linux/" rel="tag"># linux</a>
+            <a href="/tags/terminal/" rel="tag"># terminal</a>
           
-            <a href="/tags/Mac/" rel="tag"># Mac</a>
+            <a href="/tags/xterm2/" rel="tag"># xterm2</a>
           
-            <a href="/tags/ssh/" rel="tag"># ssh</a>
+            <a href="/tags/主题美化/" rel="tag"># 主题美化</a>
+          
+            <a href="/tags/欢迎图案/" rel="tag"># 欢迎图案</a>
           
         </div>
       
@@ -513,8 +654,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/02/10/nginx-settings/" rel="next" title="关于centos的一些基础命令汇合">
-                <i class="fa fa-chevron-left"></i> 关于centos的一些基础命令汇合
+              <a href="/2018/02/11/ssh-nopwd/" rel="next" title="Mac下配置ssh免密码登陆">
+                <i class="fa fa-chevron-left"></i> Mac下配置ssh免密码登陆
               </a>
             
           </div>
@@ -522,10 +663,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/05/27/bash-color/" rel="prev" title="bash-color">
-                bash-color <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -678,7 +815,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Mac下配置ssh免密码登陆"><span class="nav-number">1.</span> <span class="nav-text">Mac下配置ssh免密码登陆</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#环境准备"><span class="nav-number">1.1.</span> <span class="nav-text">环境准备</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#操作步骤"><span class="nav-number">1.2.</span> <span class="nav-text">操作步骤</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#本机操作"><span class="nav-number">1.2.1.</span> <span class="nav-text">本机操作</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#服务器操作"><span class="nav-number">1.2.2.</span> <span class="nav-text">服务器操作</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#继续本机操作"><span class="nav-number">1.2.3.</span> <span class="nav-text">继续本机操作</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#别名设置"><span class="nav-number">1.2.3.1.</span> <span class="nav-text">别名设置</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#完成"><span class="nav-number">1.2.4.</span> <span class="nav-text">完成</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#终端中设置彩色的欢迎图案"><span class="nav-number">1.</span> <span class="nav-text">终端中设置彩色的欢迎图案</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#先附上效果图"><span class="nav-number">1.1.</span> <span class="nav-text">先附上效果图</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#设置图案"><span class="nav-number">1.2.</span> <span class="nav-text">设置图案</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#设置颜色"><span class="nav-number">1.3.</span> <span class="nav-text">设置颜色</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#ANSI-Escape-code"><span class="nav-number">1.3.1.</span> <span class="nav-text">ANSI Escape code</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#常用文本样式控制符"><span class="nav-number">1.3.2.</span> <span class="nav-text">常用文本样式控制符</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1位颜色编码"><span class="nav-number">1.3.2.1.</span> <span class="nav-text">1位颜色编码</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#8位-256颜色码"><span class="nav-number">1.3.2.2.</span> <span class="nav-text">8位 256颜色码</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#xterm-256颜色码"><span class="nav-number">1.3.2.3.</span> <span class="nav-text">xterm 256颜色码</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#示例"><span class="nav-number">1.3.2.4.</span> <span class="nav-text">示例</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#设置方法1"><span class="nav-number">1.3.3.</span> <span class="nav-text">设置方法1</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#sh文件示例："><span class="nav-number">1.3.3.1.</span> <span class="nav-text">sh文件示例：</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#设置方法2"><span class="nav-number">1.3.4.</span> <span class="nav-text">设置方法2</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#附录"><span class="nav-number">1.4.</span> <span class="nav-text">附录</span></a></li></ol></li></ol></div>
             
 
           </div>
