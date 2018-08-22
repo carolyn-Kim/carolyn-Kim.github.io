@@ -4,6 +4,32 @@
 
     
   <url>
+    <loc>http://yoursite.com/2018/08/22/update-ohmyzsh/</loc>
+    <lastmod>2018-08-22T08:26:36.952Z</lastmod>
+    <data>
+        <display>
+        <title>oh my zsh无法更新</title>
+        <pubTime>2018-08-22T08:05:43.000Z</pubTime>
+        
+        <tag>terminal</tag>
+         
+        <tag>xterm2</tag>
+         
+        <tag>主题美化</tag>
+         
+        <tag>oh my zsh</tag>
+         
+         
+           
+             
+              <breadCrumb title="随笔" url="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2018/06/01/javascript-overloading/</loc>
     <lastmod>2018-06-01T13:29:37.850Z</lastmod>
     <data>
@@ -160,11 +186,11 @@
         <title>函数式编程笔记</title>
         <pubTime>2018-01-13T16:18:34.000Z</pubTime>
         
-        <tag>函数式编程</tag>
-         
         <tag>javascript</tag>
          
         <tag>js</tag>
+         
+        <tag>函数式编程</tag>
          
          
            

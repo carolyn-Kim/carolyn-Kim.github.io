@@ -3,6 +3,34 @@
   
     
     <entry>
+      <title><![CDATA[oh my zsh无法更新]]></title>
+      <url>/2018/08/22/update-ohmyzsh/</url>
+      <content type="html"><![CDATA[<h1 id="oh-my-zsh无法更新"><a href="#oh-my-zsh无法更新" class="headerlink" title="oh my zsh无法更新"></a>oh my zsh无法更新</h1><h2 id="错误信息"><a href="#错误信息" class="headerlink" title="错误信息"></a>错误信息</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">error: cannot pull <span class="keyword">with</span> rebase: You have unstaged changes.</span><br><span class="line">error: please commit or stash them.</span><br></pre></td></tr></table></figure>
+<h2 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cd ~<span class="regexp">/.oh-my-zsh/</span></span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">"commit message"</span></span><br><span class="line">upgrade_oh_my_zsh</span><br></pre></td></tr></table></figure>
+]]></content>
+      
+        <categories>
+            
+            <category> 随笔 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> terminal </tag>
+            
+            <tag> xterm2 </tag>
+            
+            <tag> 主题美化 </tag>
+            
+            <tag> oh my zsh </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[javascript的重载]]></title>
       <url>/2018/06/01/javascript-overloading/</url>
       <content type="html"><![CDATA[<h1 id="Javascript-的重载"><a href="#Javascript-的重载" class="headerlink" title="Javascript 的重载"></a>Javascript 的重载</h1><h2 id="什么是重载"><a href="#什么是重载" class="headerlink" title="什么是重载"></a>什么是重载</h2><p>​    所谓重载就是一组具有相同名字，不同参数个数的函数，可以根据传入的不同参数个数，来决定使用不同的函数。</p>
@@ -696,11 +724,11 @@
         
         <tags>
             
-            <tag> 函数式编程 </tag>
-            
             <tag> javascript </tag>
             
             <tag> js </tag>
+            
+            <tag> 函数式编程 </tag>
             
         </tags>
         

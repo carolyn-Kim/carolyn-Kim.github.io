@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-06-01T13:29:37.850Z</updated>
+  <updated>2018-08-22T08:26:36.952Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>oh my zsh无法更新</title>
+    <link href="http://yoursite.com/2018/08/22/update-ohmyzsh/"/>
+    <id>http://yoursite.com/2018/08/22/update-ohmyzsh/</id>
+    <published>2018-08-22T08:05:43.000Z</published>
+    <updated>2018-08-22T08:26:36.952Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="oh-my-zsh无法更新"><a href="#oh-my-zsh无法更新" class="headerlink" title="oh my zsh无法更新"></a>oh my zsh无法更新</h1><h2 id="错误信息"><a href="#错误信息" class="headerlink" title="错误信息"></a>错误信息</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">error: cannot pull <span class="keyword">with</span> rebase: You have unstaged changes.</span><br><span class="line">error: please commit or stash them.</span><br></pre></td></tr></table></figure><h2 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cd ~<span class="regexp">/.oh-my-zsh/</span></span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">"commit message"</span></span><br><span class="line">upgrade_oh_my_zsh</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;oh-my-zsh无法更新&quot;&gt;&lt;a href=&quot;#oh-my-zsh无法更新&quot; class=&quot;headerlink&quot; title=&quot;oh my zsh无法更新&quot;&gt;&lt;/a&gt;oh my zsh无法更新&lt;/h1&gt;&lt;h2 id=&quot;错误信息&quot;&gt;&lt;a href=&quot;#错误信息&quot;
+      
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="terminal" scheme="http://yoursite.com/tags/terminal/"/>
+    
+      <category term="xterm2" scheme="http://yoursite.com/tags/xterm2/"/>
+    
+      <category term="主题美化" scheme="http://yoursite.com/tags/%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/"/>
+    
+      <category term="oh my zsh" scheme="http://yoursite.com/tags/oh-my-zsh/"/>
+    
+  </entry>
   
   <entry>
     <title>javascript的重载</title>
@@ -218,11 +249,11 @@
       <category term="javascript" scheme="http://yoursite.com/categories/javascript/"/>
     
     
-      <category term="函数式编程" scheme="http://yoursite.com/tags/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/"/>
-    
       <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
     
       <category term="js" scheme="http://yoursite.com/tags/js/"/>
+    
+      <category term="函数式编程" scheme="http://yoursite.com/tags/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/"/>
     
   </entry>
   
