@@ -4,6 +4,54 @@
 
     
   <url>
+    <loc>http://yoursite.com/2018/10/06/docker-jenkins-update/</loc>
+    <lastmod>2018-10-06T15:17:50.335Z</lastmod>
+    <data>
+        <display>
+        <title>docker-jenkins-update</title>
+        <pubTime>2018-10-06T15:12:49.000Z</pubTime>
+        
+        <tag>docker</tag>
+         
+        <tag>jenkins</tag>
+         
+        <tag>更新</tag>
+         
+        <tag>升级</tag>
+         
+         
+           
+             
+              <breadCrumb title="jenkins" url="http://yoursite.com/categories/jenkins/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/10/06/docer-operate/</loc>
+    <lastmod>2018-10-06T15:11:51.114Z</lastmod>
+    <data>
+        <display>
+        <title>Dcoker的基本操作</title>
+        <pubTime>2018-10-06T15:08:03.000Z</pubTime>
+        
+        <tag>docker</tag>
+         
+        <tag>基础</tag>
+         
+         
+           
+             
+              <breadCrumb title="docker" url="http://yoursite.com/categories/docker/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2018/08/22/update-ohmyzsh/</loc>
     <lastmod>2018-08-22T08:26:36.952Z</lastmod>
     <data>
