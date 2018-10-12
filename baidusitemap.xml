@@ -4,6 +4,30 @@
 
     
   <url>
+    <loc>http://yoursite.com/2018/10/12/docker-cp/</loc>
+    <lastmod>2018-10-12T08:53:12.663Z</lastmod>
+    <data>
+        <display>
+        <title>Docker容器和主机如何互相拷贝传输文件</title>
+        <pubTime>2018-10-12T08:52:20.000Z</pubTime>
+        
+        <tag>docker</tag>
+         
+        <tag>拷贝</tag>
+         
+        <tag>复制</tag>
+         
+         
+           
+             
+              <breadCrumb title="docker" url="http://yoursite.com/categories/docker/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2018/10/12/docker-gitlab-jenkins/</loc>
     <lastmod>2018-10-12T08:46:27.584Z</lastmod>
     <data>
