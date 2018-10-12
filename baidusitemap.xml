@@ -4,11 +4,39 @@
 
     
   <url>
-    <loc>http://yoursite.com/2018/10/06/docker-jenkins-update/</loc>
-    <lastmod>2018-10-06T15:17:50.335Z</lastmod>
+    <loc>http://yoursite.com/2018/10/12/docker-gitlab-jenkins/</loc>
+    <lastmod>2018-10-12T08:46:27.584Z</lastmod>
     <data>
         <display>
-        <title>docker-jenkins-update</title>
+        <title>docker下的gitlab、jenkins的安装和配置</title>
+        <pubTime>2018-10-12T08:45:32.000Z</pubTime>
+        
+        <tag>docker</tag>
+         
+        <tag>jenkins</tag>
+         
+        <tag>安装</tag>
+         
+        <tag>gitlab</tag>
+         
+        <tag>持续集成</tag>
+         
+         
+           
+             
+              <breadCrumb title="docker" url="http://yoursite.com/categories/docker/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/10/06/docker-jenkins-update/</loc>
+    <lastmod>2018-10-06T15:19:15.441Z</lastmod>
+    <data>
+        <display>
+        <title>升级Jenkins的方法</title>
         <pubTime>2018-10-06T15:12:49.000Z</pubTime>
         
         <tag>docker</tag>

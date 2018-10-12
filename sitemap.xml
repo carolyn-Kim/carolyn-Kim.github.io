@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2018/10/12/docker-gitlab-jenkins/</loc>
+    
+    <lastmod>2018-10-12T08:46:27.584Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2018/10/06/docker-jenkins-update/</loc>
     
-    <lastmod>2018-10-06T15:17:50.335Z</lastmod>
+    <lastmod>2018-10-06T15:19:15.441Z</lastmod>
     
   </url>
   
