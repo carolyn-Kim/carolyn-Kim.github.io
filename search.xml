@@ -3,6 +3,31 @@
   
     
     <entry>
+      <title><![CDATA[arcgis for javascript 4.9 图标]]></title>
+      <url>/2018/11/19/arcgis-4x-datas/</url>
+      <content type="html"><![CDATA[<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><ul>
+<li>Icons：<a href="https://carolyn-kim.github.io/dataReference/arcgisIcons/index.html" target="_blank" rel="noopener">https://carolyn-kim.github.io/dataReference/arcgisIcons/index.html</a></li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> arcgis </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> arcgis </tag>
+            
+            <tag> arcgis 4.9 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Docker容器和主机如何互相拷贝传输文件]]></title>
       <url>/2018/10/12/docker-cp/</url>
       <content type="html"><![CDATA[<h1 id="Docker容器和主机如何互相拷贝传输文件"><a href="#Docker容器和主机如何互相拷贝传输文件" class="headerlink" title="Docker容器和主机如何互相拷贝传输文件"></a>Docker容器和主机如何互相拷贝传输文件</h1><blockquote>
@@ -1095,13 +1120,13 @@
         
         <tags>
             
+            <tag> nginx </tag>
+            
             <tag> linux </tag>
             
             <tag> centos7 </tag>
             
             <tag> centos </tag>
-            
-            <tag> nginx </tag>
             
         </tags>
         
@@ -1223,11 +1248,11 @@
         
         <tags>
             
-            <tag> nginx </tag>
-            
             <tag> nodejs </tag>
             
             <tag> node </tag>
+            
+            <tag> nginx </tag>
             
             <tag> 上线部署 </tag>
             
