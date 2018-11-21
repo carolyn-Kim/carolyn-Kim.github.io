@@ -104,17 +104,17 @@
 <meta property="og:site_name" content="KimMUMU&#39;s blog">
 <meta property="og:description" content="Shadowsocks &amp;amp; Kcptun 因为搭的时候费了挺大劲的，记录一下自己搭的过程，和一些有问题的地方。  购买vps在网上找到了老高的技术博客（https://blog.phpgao.com/hostmybytes.html），按照老高的博客推荐，完成在HostMyBytes买了一台$8-768MB的vps。老高的里面还有很多教导翻墙的博客，可以看那里，我这里只是记录自己搭建的过程">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2017-12-30-051020.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2017-12-30-051226.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2017-12-30-051845.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2017-12-30-054726.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2017-12-30-055314.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2017-12-30-055453.png">
-<meta property="og:updated_time" content="2017-12-31T12:29:58.000Z">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2017-12-30-051020.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2017-12-30-051226.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2017-12-30-051845.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2017-12-30-054726.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2017-12-30-055314.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2017-12-30-055453.png">
+<meta property="og:updated_time" content="2018-11-21T01:54:58.907Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Shadowsocks &amp; Kcptun 配置">
 <meta name="twitter:description" content="Shadowsocks &amp;amp; Kcptun 因为搭的时候费了挺大劲的，记录一下自己搭的过程，和一些有问题的地方。  购买vps在网上找到了老高的技术博客（https://blog.phpgao.com/hostmybytes.html），按照老高的博客推荐，完成在HostMyBytes买了一台$8-768MB的vps。老高的里面还有很多教导翻墙的博客，可以看那里，我这里只是记录自己搭建的过程">
-<meta name="twitter:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2017-12-30-051020.png">
+<meta name="twitter:image" content="http://kim.rim-ip.com/mdpic/2017-12-30-051020.png">
 
 
 
@@ -433,17 +433,17 @@
 <p>这样ss服务器端就算安装完毕</p>
 <h2 id="配置客户端ss"><a href="#配置客户端ss" class="headerlink" title="配置客户端ss"></a>配置客户端ss</h2><p>安装ss客户端（<a href="https://github.com/shadowsocks/ShadowsocksX-NG/releases" target="_blank" rel="noopener">mac安装包</a>），成功之后</p>
 <p>点击服务器配置</p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2017-12-30-051020.png" alt=""></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2017-12-30-051020.png" alt=""></p>
 <p>按照之前查看的ss-config 按照提示选择相对应的</p>
 <figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">"server_port"</span>:<span class="number">46019</span>,</span><br><span class="line">    <span class="attr">"password"</span>:<span class="string">"password"</span>,</span><br><span class="line">    <span class="attr">"timeout"</span>:<span class="number">60</span>,</span><br><span class="line">    <span class="attr">"method"</span>:<span class="string">"rc4-md5"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2017-12-30-051226.png" alt=""></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2017-12-30-051226.png" alt=""></p>
 <p>【地址】：你的vps ip地址</p>
 <p>【:8379】：自己的server_prot</p>
 <p>【密码】：password</p>
 <p>【加密方法】：method</p>
 <p>填写之后确定，并且打开shadowsocks。</p>
 <p>然后打开浏览器，访问谷歌</p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2017-12-30-051845.png" alt=""></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2017-12-30-051845.png" alt=""></p>
 <p>访问成功。</p>
 <h2 id="kcptun配置"><a href="#kcptun配置" class="headerlink" title="kcptun配置"></a>kcptun配置</h2><p>在服务器端运行以下命令下载，并且解压</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir ~/kcptun &amp;&amp; <span class="built_in">cd</span> ~/kcptun</span><br><span class="line"></span><br><span class="line">$ wget https://github.com/xtaci/kcptun/releases/download/v20161202/kcptun-linux-amd64-20161202.tar.gz</span><br><span class="line"></span><br><span class="line">$ tar zxf kcptun-linux-amd64-20161202.tar.gz &amp;&amp; rm kcptun-linux-amd64-20161202.tar.gz</span><br></pre></td></tr></table></figure>
@@ -478,16 +478,16 @@
 <li><p>安装相对应的kcptun（<a href="https://github.com/xtaci/kcptun/releases/）" target="_blank" rel="noopener">https://github.com/xtaci/kcptun/releases/）</a></p>
 </li>
 <li><p>我选择了<a href="https://github.com/xtaci/kcptun/releases/download/v20171201/kcptun-darwin-amd64-20171201.tar.gz" target="_blank" rel="noopener"><strong>kcptun-darwin-amd64-20171201.tar.gz</strong></a> 下载并且解压，依然的到两个文件</p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2017-12-30-054726.png" alt=""></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2017-12-30-054726.png" alt=""></p>
 <p>之后配置一个在文件夹中配置一个config.json文件</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"localaddr"</span>: <span class="string">":12948"</span>,<span class="comment">#自己定义的监听端口</span></span><br><span class="line">    <span class="string">"remoteaddr"</span>: <span class="string">"IPaddr:49033"</span>, <span class="comment">#listen端口</span></span><br><span class="line">    <span class="string">"key"</span>: <span class="string">"key"</span>,</span><br><span class="line">    <span class="string">"crypt"</span>: <span class="string">"aes-192"</span>, <span class="comment">#kcp服务端的config</span></span><br><span class="line">    <span class="string">"mode"</span>: <span class="string">"fast2"</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">#配置好之后,terminal进入相对应的文件夹内，运行</span></span><br><span class="line">$ ./client_darwin_amd64 -c config.json</span><br><span class="line"></span><br><span class="line"><span class="comment">#得到如下</span></span><br></pre></td></tr></table></figure>
 <p>​</p>
 </li>
 </ol>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2017-12-30-055314.png" alt=""></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2017-12-30-055314.png" alt=""></p>
 <p>之后在ss中配置</p>
 <p>添加一个新的服务器，按照如下填写</p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2017-12-30-055453.png" alt=""></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2017-12-30-055453.png" alt=""></p>
 <p>地址：127.0.0.1</p>
 <p>端口：之前kcp定义的端口，这里是12948</p>
 <p>加密方式和密码：都是之前ss配置时候的信息。</p>

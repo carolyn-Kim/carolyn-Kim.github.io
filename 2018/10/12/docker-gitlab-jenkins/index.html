@@ -104,59 +104,59 @@
 <meta property="og:site_name" content="KimMUMU&#39;s blog">
 <meta property="og:description" content="docker下的gitlab、jenkins的安装和配置 本文中所使用的都是阿里云的服务器，CentOS系统。   什么是持续集成? 在软件工程中，持续集成（CI）是指将所有开发者的工作副本每天多次合并到主干的做法。Grady Booch 在1991年的 Booch method 中首次命名并提出了 CI 的概念，尽管在当时他并不主张每天多次集成。而 XP（Extreme programming，">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083002.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083022.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083027.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083033.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083040.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-11-071746.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-11-071807.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-11-071824.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-083002.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-083022.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-083027.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-083033.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-083040.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-11-071746.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-11-071807.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-11-071824.png">
 <meta property="og:image" content="https://images.vmartaw.com/2018/07/03/jenkins_finish2.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083100.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083108.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083116.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083122.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083130.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-074136.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-074137.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083203.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083213.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083219.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083224.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-074910.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083251.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083248.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083258.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083305.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083311.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-084133.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-071125.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-084147.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-084153.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-084159.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-084207.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-084211.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-084217.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-084225.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-11-081425.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-11-081419.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-11-081601.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-084257.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-084303.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-11-030058.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-11-030054.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-11-030046.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-11-030037.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-11-025052.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-11-024212.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-11-034432.png">
-<meta property="og:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-11-034744.png">
-<meta property="og:updated_time" content="2018-10-12T08:46:27.584Z">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-083100.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-083108.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-083116.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-083122.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-083130.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-074136.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-074137.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-083203.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-083213.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-083219.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-083224.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-074910.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-083251.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-083248.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-083258.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-083305.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-083311.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-084133.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-071125.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-084147.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-084153.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-084159.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-084207.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-084211.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-084217.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-084225.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-11-081425.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-11-081419.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-11-081601.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-084257.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-084303.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-11-030058.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-11-030054.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-11-030046.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-11-030037.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-11-025052.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-11-024212.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-11-034432.png">
+<meta property="og:image" content="http://kim.rim-ip.com/mdpic/2018-10-11-034744.png">
+<meta property="og:updated_time" content="2018-11-21T01:54:58.907Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="docker下的gitlab、jenkins的安装和配置">
 <meta name="twitter:description" content="docker下的gitlab、jenkins的安装和配置 本文中所使用的都是阿里云的服务器，CentOS系统。   什么是持续集成? 在软件工程中，持续集成（CI）是指将所有开发者的工作副本每天多次合并到主干的做法。Grady Booch 在1991年的 Booch method 中首次命名并提出了 CI 的概念，尽管在当时他并不主张每天多次集成。而 XP（Extreme programming，">
-<meta name="twitter:image" content="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083002.png">
+<meta name="twitter:image" content="http://kim.rim-ip.com/mdpic/2018-10-12-083002.png">
 
 
 
@@ -474,7 +474,7 @@
 </ul>
 </li>
 <li><p>实现自动化部署的基本流程</p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083002.png" alt="image-20181010145928469"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-12-083002.png" alt="image-20181010145928469"></p>
 <p>简要概括上述步骤：</p>
 <ul>
 <li>开发者，提交代码到<code>Gitlab</code>中</li>
@@ -515,14 +515,14 @@
 <ul>
 <li><p>方法1：</p>
 <p><code>docker search jenkins</code></p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083022.png" alt="image-20181011155328763"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-12-083022.png" alt="image-20181011155328763"></p>
 </li>
 <li><p>方法2：</p>
 <p>访问<code>https://hub.docker.com</code>，搜索jenkins</p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083027.png" alt="image-20181011155540357"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-12-083027.png" alt="image-20181011155540357"></p>
 <p>（PS：official是官方认证的，通常使用官方镜像）</p>
 <p>查看<code>DETAILS</code>后，右侧有<code>docker</code>命令：</p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083033.png" alt="image-20181011155717871"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-12-083033.png" alt="image-20181011155717871"></p>
 </li>
 </ul>
 </li>
@@ -532,7 +532,7 @@
 <p><code>docker pull jenkins:latest</code></p>
 </li>
 <li><p>验证下载结果</p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083040.png" alt="image-20181011160233289"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-12-083040.png" alt="image-20181011160233289"></p>
 </li>
 <li><p>启动Jenkins的docker镜像</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">docker run -d \</span><br><span class="line">-p 8088:8080 \</span><br><span class="line">-p 50000:50000 \</span><br><span class="line">-v jenkins:/var/jenkins_home \</span><br><span class="line">-v /etc/localtime:/etc/localtime \</span><br><span class="line">-v /etc/timezone:/etc/timezone \</span><br><span class="line">--name docker.io/jenkins</span><br></pre></td></tr></table></figure>
@@ -548,14 +548,14 @@
 <p> 然后你就可以根据你自己的ip地址来键入下列地址http:ip:8088来访问jenkins的主页了。 这里有一点需要注意的是，需要注意你阿里云服务器设置的网络安全协议，是否禁用掉了8088这个端口。</p>
 <h3 id="Jenkins配置"><a href="#Jenkins配置" class="headerlink" title="Jenkins配置"></a>Jenkins配置</h3></li>
 <li><p><strong>用浏览器打开<code>http://ip:port</code>运行，提示您输入管理员密码。按照提示的路径打开密码文件，输入密码即可。</strong></p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-11-071746.png" alt="gettingStarted"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-11-071746.png" alt="gettingStarted"></p>
 <p>PS：由于这里是用docker安装的，所以应该进入容器后找到相对应的位置。</p>
 </li>
 <li><p><strong>选择默认推荐安装的插件</strong></p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-11-071807.png" alt="2"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-11-071807.png" alt="2"></p>
 </li>
 <li><p><strong>创建管理员账户</strong></p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-11-071824.png" alt=""></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-11-071824.png" alt=""></p>
 </li>
 <li><p><strong>登陆页面</strong></p>
 <p>创建成功后，输入用户名、密码，点击完成就会进入jenkins的主页。</p>
@@ -566,7 +566,7 @@
 <li><p>点击【系统管理】-【插件管理】</p>
 </li>
 <li><p>可以查看插件信息，选择【可选插件】，勾选安装需要的插件。也可以在【高级】中上传所需要的已下载的本地插件</p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083100.png" alt="image-20181011162408793"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-12-083100.png" alt="image-20181011162408793"></p>
 </li>
 <li><p>这里安装了一下所需插件</p>
 <ul>
@@ -584,12 +584,12 @@
 <li><p><strong>创建任务</strong></p>
 <ul>
 <li><p>点击【新建任务】</p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083108.png" alt="image-20181011163433236"></p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083116.png" alt="image-20181011164400582"></p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083122.png" alt="image-20181011164524098"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-12-083108.png" alt="image-20181011163433236"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-12-083116.png" alt="image-20181011164400582"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-12-083122.png" alt="image-20181011164524098"></p>
 </li>
 <li><p>【触发器构建】勾选<code>Build when a change is pushed to GitLab</code>。(需要复制后面的gitlab webhook url地址)</p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083130.png" alt="image-20181011165057831"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-12-083130.png" alt="image-20181011165057831"></p>
 <p>这里有个选项<code>Accept merge request on success</code>，它的作用是用来筛选分支，比如同一个项目中有多个分支，可能只想自动构建其中的一个，这时就可以通过它匹配，默认是构建所有的分支。</p>
 </li>
 </ul>
@@ -599,28 +599,28 @@
 <p><strong>如果是新版本的jenkins，比如2.138.1，需要对权限进行设置，否则gitlab会收到403错误，无法触发构建。</strong></p>
 <ul>
 <li><p><strong>第一种方式 </strong>是开启匿名用户读取的权限：<br>点击【系统管理】-【全局安全配置】-勾选 匿名用户具有可读权限</p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-074136.png" alt="image-20181011170451595"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-12-074136.png" alt="image-20181011170451595"></p>
 <p>如果jenkins是暴露在公网的话，这种方式不安全</p>
 </li>
 <li><p>推荐用<strong>第二种方法Secret token</strong></p>
 <p>在jenkins项目的Build when a change is pushed to GitLab.配置中，选择【高级】，找到【Secret token】，点击【Generate】，将生成的token记录下来，之后配置webhook时会用到。</p>
-<p> <img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-074137.png" alt="image-20181011165239719"></p>
+<p> <img src="http://kim.rim-ip.com/mdpic/2018-10-12-074137.png" alt="image-20181011165239719"></p>
 <ul>
 <li><p>复制【Secret token】</p>
 </li>
 <li><p>登录到<code>gitlab</code> 页面，管理需要自动部署的代码仓库，进入【Settings】-【Integrations】。</p>
 </li>
 <li><p>如果jenkins的项目中配置了Secret token，并且webhook的配置界面中有Secret Token的选项，则可以将刚才生成的token填入Secret Token中，保存配置即可。</p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083203.png" alt="image-20181011165921449"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-12-083203.png" alt="image-20181011165921449"></p>
 </li>
 <li><p>到此先保存。回到Jenkins首页</p>
 </li>
 <li><p>选择【系统管理】-【系统设置】-找到【Gitlab】</p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083213.png" alt="image-20181011172323366"></p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083219.png" alt="image-20181011172112868"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-12-083213.png" alt="image-20181011172323366"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-12-083219.png" alt="image-20181011172112868"></p>
 <p>获取API token</p>
 <p>登录gitlab，【settings】-【Access Token】-填写Name -勾选api-【Create personal access token】-即可获取</p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083224.png" alt="image-20181012161215895"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-12-083224.png" alt="image-20181012161215895"></p>
 </li>
 <li><p>配置好【Gitlab】后，先不退出，继续在【系统设置】页面的最后找到【Publish over SSH】进行配置。</p>
 </li>
@@ -630,15 +630,15 @@
 <ol>
 <li><h5 id="Jenkins与阿里服务器关联"><a href="#Jenkins与阿里服务器关联" class="headerlink" title="Jenkins与阿里服务器关联"></a>Jenkins与阿里服务器关联</h5><ul>
 <li><p>【系统管理】-【全局工具配置】</p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-074910.png" alt="image-20181012154909909"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-12-074910.png" alt="image-20181012154909909"></p>
 </li>
 <li><p>任务中找到【构建环境】，按如下配置</p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083251.png" alt="image-20181012154611551"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-12-083251.png" alt="image-20181012154611551"></p>
 </li>
 </ul>
 </li>
 <li><p><strong>构建Gitlab中的程序</strong></p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083248.png" alt="image-20181012155315365"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-12-083248.png" alt="image-20181012155315365"></p>
 <blockquote>
 <p>这里使用的vue项目，编译、打包、压缩。</p>
 </blockquote>
@@ -649,7 +649,7 @@
 <li><p>打开jenkins控制台，选择【系统管理】找到【系统设置】，点击进入：</p>
 </li>
 <li><p>进入后，找到【Publish over SSH】模块，配置如下：</p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083258.png" alt="image-20181012135406789"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-12-083258.png" alt="image-20181012135406789"></p>
 <p>配置内容讲解：</p>
 <ul>
 <li><p>Jenkins SSH Key<br> Passphrase  -&gt;  生成ssh公钥和密钥时设置的密码，没有设置就不填<br> Path to key  -&gt;  本地电脑密钥的绝对目录<br> Key  -&gt;  密钥的Key，上面已经填了，不填</p>
@@ -670,8 +670,8 @@
 <li><p>打开jenkins控制台，找到之前创建的任务名称，点击后面的小三角，选择【配置】</p>
 </li>
 <li><p>找到【构建后操作】，点击【增加构建后操作步骤】，选择【Send build artifacts over SSH】</p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083305.png" alt="image-20181012140153223"></p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-083311.png" alt="image-20181012144009934"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-12-083305.png" alt="image-20181012140153223"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-12-083311.png" alt="image-20181012144009934"></p>
 <p>配置内容详解：</p>
 <ul>
 <li><p>SSH Server<br>  Name 之前在全局取的服务器名字，直接选择就行</p>
@@ -718,15 +718,15 @@
 <li><p>进入【系统设置】</p>
 </li>
 <li><p>这是Jenkins地址和管理员邮箱（不设置管理员邮箱无法发送邮件）</p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-084133.png" alt="image-20181012150348528"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-12-084133.png" alt="image-20181012150348528"></p>
 </li>
 <li><p>配置系统管理的邮件属性</p>
 <ul>
 <li><p>点击【高级】</p>
 </li>
 <li><p>配置系统管理员的邮件属性</p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-071125.png" alt=""></p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-084147.png" alt="image-20181012151455236"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-12-071125.png" alt=""></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-12-084147.png" alt="image-20181012151455236"></p>
 <p>详解：</p>
 <ul>
 <li><p>Default Content Type：邮件内容格式，可选Plain text和HTML。</p>
@@ -748,7 +748,7 @@
 <li><p>点击【高级】</p>
 </li>
 <li><p>配置</p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-084153.png" alt="image-20181012151617371"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-12-084153.png" alt="image-20181012151617371"></p>
 </li>
 </ul>
 </li>
@@ -757,13 +757,13 @@
 <li><p>进入任务配置</p>
 </li>
 <li><p>拉到最后面，有一个【增加构建后操作步骤】的选项，选择圈起来的两个</p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-084159.png" alt="image-20181012151942706"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-12-084159.png" alt="image-20181012151942706"></p>
 </li>
 <li><p>填写对应的信息</p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-084207.png" alt="image-20181012152100966"></p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-084211.png" alt="image-20181012152149843"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-12-084207.png" alt="image-20181012152100966"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-12-084211.png" alt="image-20181012152149843"></p>
 <p>其中有一个【Triggers】配置，是配置什么时候触发邮件的发送，可以自行选择</p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-084217.png" alt="image-20181012152317166"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-12-084217.png" alt="image-20181012152317166"></p>
 <p>详解：</p>
 <ul>
 <li>Attach Build Log：是否发送构建日志</li>
@@ -780,7 +780,7 @@
 </ul>
 </li>
 <li><p>邮件配置后效果图</p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-084225.png" alt="image-20181012160327280"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-12-084225.png" alt="image-20181012160327280"></p>
 </li>
 </ul>
 </li>
@@ -790,9 +790,9 @@
 <h3 id="常见问题-1"><a href="#常见问题-1" class="headerlink" title="常见问题"></a>常见问题</h3><ol>
 <li><p>docker内 时区错误</p>
 <p>服务器时间：</p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-11-081425.png" alt="image-20181011160902340"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-11-081425.png" alt="image-20181011160902340"></p>
 <p>Docker内的时间：</p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-11-081419.png" alt="image-20181011160939901"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-11-081419.png" alt="image-20181011160939901"></p>
 <p>可以发现，相隔了8个小时</p>
 <p>CST应该是指（China Shanghai Time，东八区时间） </p>
 <p>UTC应该是指（Coordinated Universal Time，标准时间） </p>
@@ -806,13 +806,13 @@
 <p>​    重启启动docker：<code>docker restart containerName</code></p>
 <p>​    （PS：确保docker run命令中有： <code>-v /etc/timezone:/etc/timezone -v /etc/localtime:/etc/localtime</code>）</p>
 <p>设置好后，可以在jenkins页面的右下方查看是否正确。</p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-11-081601.png" alt="image-20181011161556846"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-11-081601.png" alt="image-20181011161556846"></p>
 </li>
 <li><p>gitlab使用webhook向jenkins发送请求，报错 Requests to the local network are not allowed。</p>
 <p> gitlab 10.6 版本以后为了安全，不允许向本地网络发送webhook请求，如果想向本地网络发送webhook请求，则需要使用管理员帐号登录，默认管理员帐号是admin@example.com，密码就是你gitlab搭建好之后第一次输入的密码，登录之后， 点击Configure Gitlab ，如下图所示</p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-084257.png" alt="image-20181011171212412"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-12-084257.png" alt="image-20181011171212412"></p>
 <p>即可进入Admin area，在Admin area中，在【settings】标签下面，找到【OutBound Request】，勾选上【Allow requests to the local network from hooks and services】 ，保存更改即可解决问题</p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-12-084303.png" alt="image-20181011171313762"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-12-084303.png" alt="image-20181011171313762"></p>
 </li>
 <li><p>如何配置免密登录？</p>
 <p>可以参考如下文章：</p>
@@ -824,11 +824,11 @@
 </li>
 <li><p><strong>查看images (images)</strong></p>
 <p><code>docker images</code></p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-11-030058.png" alt="image-20181010152623820"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-11-030058.png" alt="image-20181010152623820"></p>
 </li>
 <li><p><strong>查看image历史记录（history）</strong></p>
 <p><code>docker history IMAGEID</code></p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-11-030054.png" alt="image-20181010152906695"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-11-030054.png" alt="image-20181010152906695"></p>
 </li>
 <li><p><strong>运行容器(run)</strong></p>
 <p><code>docker run -idt sample:v1.0 /bin/bash</code></p>
@@ -841,14 +841,14 @@
 <p><code>docker ps -a</code>  查看全部容器</p>
 <p><code>docker ps</code> 查看正在运行的容器</p>
 <p><code>docker top containerName</code></p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-11-030046.png" alt="image-20181010155253469"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-11-030046.png" alt="image-20181010155253469"></p>
 </li>
 <li><p><strong>容器重命名(rename)</strong></p>
 <p><code>docker rename contianerId containerName</code></p>
 </li>
 <li><p><strong>实时资源状态(stats)</strong></p>
 <p><code>docker stats</code></p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-11-030037.png" alt="image-20181010155545172"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-11-030037.png" alt="image-20181010155545172"></p>
 </li>
 <li><p><strong>停止容器(stop)</strong></p>
 <p><code>docker stop containerName</code></p>
@@ -862,8 +862,8 @@
 </li>
 <li><p><strong>容器另存为镜像(commit)</strong></p>
 <p><code>docker commit containerId newname</code></p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-11-025052.png" alt="image-20181011103701874"></p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-11-024212.png" alt=""></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-11-025052.png" alt="image-20181011103701874"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-11-024212.png" alt=""></p>
 </li>
 <li><p><strong>导出image(save)</strong></p>
 <p><code>docker images</code></p>
@@ -896,11 +896,11 @@
 </li>
 <li><p><strong>docker环境基本信息(info)</strong></p>
 <p><code>docker info</code></p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-11-034432.png" alt=""></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-11-034432.png" alt=""></p>
 </li>
 <li><p><strong>查看容器或镜像配置(inspect)</strong></p>
 <p><code>docker inspect containerId</code></p>
-<p><img src="http://p1pkipn2k.bkt.clouddn.com/mdpic/2018-10-11-034744.png" alt="image-20181011114705160"></p>
+<p><img src="http://kim.rim-ip.com/mdpic/2018-10-11-034744.png" alt="image-20181011114705160"></p>
 </li>
 </ol>
 <h3 id="git常用命令"><a href="#git常用命令" class="headerlink" title="git常用命令"></a>git常用命令</h3><h4 id="分支类："><a href="#分支类：" class="headerlink" title="分支类："></a>分支类：</h4><blockquote>

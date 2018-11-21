@@ -4,6 +4,152 @@
 
     
   <url>
+    <loc>http://yoursite.com/2018/05/27/bash-color/</loc>
+    <lastmod>2018-11-21T01:54:58.920Z</lastmod>
+    <data>
+        <display>
+        <title>终端中设置彩色的欢迎图案</title>
+        <pubTime>2018-05-27T12:19:20.000Z</pubTime>
+        
+        <tag>terminal</tag>
+         
+        <tag>xterm2</tag>
+         
+        <tag>主题美化</tag>
+         
+        <tag>欢迎图案</tag>
+         
+         
+           
+             
+              <breadCrumb title="随笔" url="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/01/14/function-programing/</loc>
+    <lastmod>2018-11-21T01:54:58.917Z</lastmod>
+    <data>
+        <display>
+        <title>函数式编程笔记</title>
+        <pubTime>2018-01-13T16:18:34.000Z</pubTime>
+        
+        <tag>javascript</tag>
+         
+        <tag>js</tag>
+         
+        <tag>函数式编程</tag>
+         
+         
+           
+             
+              <breadCrumb title="javascript" url="http://yoursite.com/categories/javascript/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2017/12/31/Shadowsocks/</loc>
+    <lastmod>2018-11-21T01:54:58.907Z</lastmod>
+    <data>
+        <display>
+        <title>Shadowsocks & Kcptun 配置</title>
+        <pubTime>2017-12-31T00:28:53.000Z</pubTime>
+        
+        <tag>ss</tag>
+         
+        <tag>shadowsocks</tag>
+         
+        <tag>kcptun</tag>
+         
+         
+           
+             
+              <breadCrumb title="随笔" url="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/10/12/docker-gitlab-jenkins/</loc>
+    <lastmod>2018-11-21T01:54:58.907Z</lastmod>
+    <data>
+        <display>
+        <title>docker下的gitlab、jenkins的安装和配置</title>
+        <pubTime>2018-10-12T08:45:32.000Z</pubTime>
+        
+        <tag>docker</tag>
+         
+        <tag>jenkins</tag>
+         
+        <tag>安装</tag>
+         
+        <tag>gitlab</tag>
+         
+        <tag>持续集成</tag>
+         
+         
+           
+             
+              <breadCrumb title="docker" url="http://yoursite.com/categories/docker/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/01/02/terminal-color-change/</loc>
+    <lastmod>2018-11-21T01:54:58.906Z</lastmod>
+    <data>
+        <display>
+        <title>mac 终端美化</title>
+        <pubTime>2018-01-02T02:35:56.000Z</pubTime>
+        
+        <tag>terminal</tag>
+         
+        <tag>主题美化</tag>
+         
+         
+           
+             
+              <breadCrumb title="随笔" url="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2017/12/31/git-cmd/</loc>
+    <lastmod>2018-11-21T01:54:58.906Z</lastmod>
+    <data>
+        <display>
+        <title>git的基本命令学习</title>
+        <pubTime>2017-12-31T11:25:53.000Z</pubTime>
+        
+        <tag>git</tag>
+         
+        <tag>git命令</tag>
+         
+         
+           
+             
+              <breadCrumb title="git" url="http://yoursite.com/categories/git/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2018/11/19/arcgis-4x-datas/</loc>
     <lastmod>2018-11-19T08:05:19.923Z</lastmod>
     <data>
@@ -38,34 +184,6 @@
         <tag>拷贝</tag>
          
         <tag>复制</tag>
-         
-         
-           
-             
-              <breadCrumb title="docker" url="http://yoursite.com/categories/docker/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2018/10/12/docker-gitlab-jenkins/</loc>
-    <lastmod>2018-10-12T08:46:27.584Z</lastmod>
-    <data>
-        <display>
-        <title>docker下的gitlab、jenkins的安装和配置</title>
-        <pubTime>2018-10-12T08:45:32.000Z</pubTime>
-        
-        <tag>docker</tag>
-         
-        <tag>jenkins</tag>
-         
-        <tag>安装</tag>
-         
-        <tag>gitlab</tag>
-         
-        <tag>持续集成</tag>
          
          
            
@@ -200,32 +318,6 @@
 
     
   <url>
-    <loc>http://yoursite.com/2018/05/27/bash-color/</loc>
-    <lastmod>2018-05-27T12:22:55.654Z</lastmod>
-    <data>
-        <display>
-        <title>终端中设置彩色的欢迎图案</title>
-        <pubTime>2018-05-27T12:19:20.000Z</pubTime>
-        
-        <tag>terminal</tag>
-         
-        <tag>xterm2</tag>
-         
-        <tag>主题美化</tag>
-         
-        <tag>欢迎图案</tag>
-         
-         
-           
-             
-              <breadCrumb title="随笔" url="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://yoursite.com/2018/02/11/ssh-nopwd/</loc>
     <lastmod>2018-02-11T03:52:39.000Z</lastmod>
     <data>
@@ -257,13 +349,13 @@
         <title>关于centos的一些基础命令汇合</title>
         <pubTime>2018-02-10T13:58:22.000Z</pubTime>
         
-        <tag>nginx</tag>
-         
         <tag>linux</tag>
          
         <tag>centos7</tag>
          
         <tag>centos</tag>
+         
+        <tag>nginx</tag>
          
          
            
@@ -283,11 +375,11 @@
         <title>node和nginx在macos和linux的安装和一些部署要点</title>
         <pubTime>2018-01-28T14:23:33.000Z</pubTime>
         
+        <tag>nginx</tag>
+         
         <tag>nodejs</tag>
          
         <tag>node</tag>
-         
-        <tag>nginx</tag>
          
         <tag>上线部署</tag>
          
@@ -295,98 +387,6 @@
          
          
            
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2018/01/14/function-programing/</loc>
-    <lastmod>2018-01-13T16:20:49.545Z</lastmod>
-    <data>
-        <display>
-        <title>函数式编程笔记</title>
-        <pubTime>2018-01-13T16:18:34.000Z</pubTime>
-        
-        <tag>javascript</tag>
-         
-        <tag>js</tag>
-         
-        <tag>函数式编程</tag>
-         
-         
-           
-             
-              <breadCrumb title="javascript" url="http://yoursite.com/categories/javascript/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2018/01/02/terminal-color-change/</loc>
-    <lastmod>2018-01-02T02:50:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>mac 终端美化</title>
-        <pubTime>2018-01-02T02:35:56.000Z</pubTime>
-        
-        <tag>terminal</tag>
-         
-        <tag>主题美化</tag>
-         
-         
-           
-             
-              <breadCrumb title="随笔" url="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2017/12/31/Shadowsocks/</loc>
-    <lastmod>2017-12-31T12:29:58.000Z</lastmod>
-    <data>
-        <display>
-        <title>Shadowsocks & Kcptun 配置</title>
-        <pubTime>2017-12-31T00:28:53.000Z</pubTime>
-        
-        <tag>ss</tag>
-         
-        <tag>shadowsocks</tag>
-         
-        <tag>kcptun</tag>
-         
-         
-           
-             
-              <breadCrumb title="随笔" url="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2017/12/31/git-cmd/</loc>
-    <lastmod>2017-12-31T11:44:56.749Z</lastmod>
-    <data>
-        <display>
-        <title>git的基本命令学习</title>
-        <pubTime>2017-12-31T11:25:53.000Z</pubTime>
-        
-        <tag>git</tag>
-         
-        <tag>git命令</tag>
-         
-         
-           
-             
-              <breadCrumb title="git" url="http://yoursite.com/categories/git/"/>
-          
         </display>
     </data>
     </url>
