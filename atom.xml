@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-11-19T08:05:19.923Z</updated>
+  <updated>2018-12-05T09:28:36.095Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>arcgis for javascript 4.9 图标</title>
+    <title>arcgis for javascript 4.9 Info</title>
     <link href="http://yoursite.com/2018/11/19/arcgis-4x-datas/"/>
     <id>http://yoursite.com/2018/11/19/arcgis-4x-datas/</id>
     <published>2018-11-19T08:02:03.000Z</published>
-    <updated>2018-11-19T08:05:19.923Z</updated>
+    <updated>2018-12-05T09:28:36.095Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><ul><li>Icons：<a href="https://carolyn-kim.github.io/dataReference/arcgisIcons/index.html" target="_blank" rel="noopener">https://carolyn-kim.github.io/dataReference/arcgisIcons/index.html</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><ul><li>Icons：<a href="https://carolyn-kim.github.io/dataReference/arcgisIcons/index.html" target="_blank" rel="noopener">https://carolyn-kim.github.io/dataReference/arcgisIcons/index.html</a></li><li>加载高德地图&amp;天地图【VUE DEMO】：<a href="https://github.com/carolyn-Kim/arcgis4.x-vue" target="_blank" rel="noopener">https://github.com/carolyn-Kim/arcgis4.x-vue</a></li></ul>]]></content>
     
     <summary type="html">
     
@@ -335,13 +335,13 @@
       <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
     
     
+      <category term="nginx" scheme="http://yoursite.com/tags/nginx/"/>
+    
       <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
     
       <category term="centos7" scheme="http://yoursite.com/tags/centos7/"/>
     
       <category term="centos" scheme="http://yoursite.com/tags/centos/"/>
-    
-      <category term="nginx" scheme="http://yoursite.com/tags/nginx/"/>
     
   </entry>
   
@@ -365,11 +365,11 @@
     </summary>
     
     
-      <category term="nginx" scheme="http://yoursite.com/tags/nginx/"/>
-    
       <category term="nodejs" scheme="http://yoursite.com/tags/nodejs/"/>
     
       <category term="node" scheme="http://yoursite.com/tags/node/"/>
+    
+      <category term="nginx" scheme="http://yoursite.com/tags/nginx/"/>
     
       <category term="上线部署" scheme="http://yoursite.com/tags/%E4%B8%8A%E7%BA%BF%E9%83%A8%E7%BD%B2/"/>
     

@@ -3,10 +3,11 @@
   
     
     <entry>
-      <title><![CDATA[arcgis for javascript 4.9 图标]]></title>
+      <title><![CDATA[arcgis for javascript 4.9 Info]]></title>
       <url>/2018/11/19/arcgis-4x-datas/</url>
       <content type="html"><![CDATA[<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><ul>
 <li>Icons：<a href="https://carolyn-kim.github.io/dataReference/arcgisIcons/index.html" target="_blank" rel="noopener">https://carolyn-kim.github.io/dataReference/arcgisIcons/index.html</a></li>
+<li>加载高德地图&amp;天地图【VUE DEMO】：<a href="https://github.com/carolyn-Kim/arcgis4.x-vue" target="_blank" rel="noopener">https://github.com/carolyn-Kim/arcgis4.x-vue</a></li>
 </ul>
 ]]></content>
       
@@ -1120,13 +1121,13 @@
         
         <tags>
             
+            <tag> nginx </tag>
+            
             <tag> linux </tag>
             
             <tag> centos7 </tag>
             
             <tag> centos </tag>
-            
-            <tag> nginx </tag>
             
         </tags>
         
@@ -1248,11 +1249,11 @@
         
         <tags>
             
-            <tag> nginx </tag>
-            
             <tag> nodejs </tag>
             
             <tag> node </tag>
+            
+            <tag> nginx </tag>
             
             <tag> 上线部署 </tag>
             
