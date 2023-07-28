@@ -1,0 +1,75 @@
+<!DOCTYPE html><html lang="zh-Hans"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content="mac 终端美化"><meta name="keywords" content="terminal,主题美化"><meta name="author" content="KimMUMU"><meta name="copyright" content="KimMUMU"><title>mac 终端美化 | KimMUMU's blog</title><link rel="shortcut icon" href="/melody-favicon.ico"><link rel="stylesheet" href="/css/index.css?version=1.9.1"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css?version=1.9.1"><meta name="format-detection" content="telephone=no"><meta http-equiv="x-dns-prefetch-control" content="on"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><script src="https://v1.hitokoto.cn/?encode=js&amp;charset=utf-8&amp;select=.footer_custom_text" defer></script><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容:${query}"}},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  hexoVersion: '6.3.0'
+} </script><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="KimMUMU's blog" type="application/atom+xml">
+</head><body><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar" data-display="true"><div class="toggle-sidebar-info text-center"><span data-toggle="切换文章详情">切换站点概览</span><hr></div><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#terminal-%E7%9A%84%E9%A2%9C%E8%89%B2%E6%94%B9%E5%8F%98"><span class="toc-number">1.</span> <span class="toc-text">terminal 的颜色改变</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%85%8D%E7%BD%AE%E8%AF%B4%E6%98%8E"><span class="toc-number">2.</span> <span class="toc-text">配置说明</span></a></li></ol></div></div><div class="author-info hide"><div class="author-info__avatar text-center"><img src="http://kim.jtsmart-ai.com/mdpic/2017-12-31-tu2.jpg"></div><div class="author-info__name text-center">KimMUMU</div><div class="author-info__description text-center"></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">文章</span><span class="pull-right">22</span></a><a class="author-info-articles__tags article-meta" href="/tags"><span class="pull-left">标签</span><span class="pull-right">43</span></a><a class="author-info-articles__categories article-meta" href="/categories"><span class="pull-left">分类</span><span class="pull-right">9</span></a></div></div></div><div id="content-outer"><div id="top-container" style="background-image: url(http://kim.jtsmart-ai.com/DeviantArt.png)"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">KimMUMU's blog</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus">   <a class="site-page" href="/">Home</a><a class="site-page" href="/archives">Archives</a><a class="site-page" href="/tags">Tags</a><a class="site-page" href="/categories">Categories</a></span><span class="pull-right"><a class="site-page social-icon search"><i class="fa fa-search"></i><span> 搜索</span></a></span></div><div id="post-info"><div id="post-title">mac 终端美化</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2018-01-02</time><span class="post-meta__separator">|</span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a><div class="post-meta-wordcount"><span>字数总计: </span><span class="word-count">542</span><span class="post-meta__separator">|</span><span>阅读时长: 1 分钟</span></div></div></div></div><div class="layout" id="content-inner"><article id="post"><div class="article-container" id="post-content"><h2 id="terminal-的颜色改变"><a href="#terminal-的颜色改变" class="headerlink" title="terminal 的颜色改变"></a>terminal 的颜色改变</h2><blockquote>
+<p>mac中的terminal中的颜色太单一，当命令多的时候一种颜色很容易晃眼，经常自己都找不到自己的命令。所以搜索到了相对满意的结果，记录一下。</p>
+<p>当然有很多其他方法，比如iterm，zsh…</p>
+</blockquote>
+<ol>
+<li>通过终端偏好设置，选择自己喜欢主题，配色和字体大小等。</li>
+<li>写配置文件</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim ~/.bash_profile</span><br></pre></td></tr></table></figure>
+
+<ol start="3">
+<li><p>加入配置</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># for color</span></span><br><span class="line"><span class="built_in">export</span> CLICOLOR=1</span><br><span class="line"><span class="comment"># \h:\W \u\$</span></span><br><span class="line"><span class="built_in">export</span> PS1=<span class="string">&#x27;\[\033[01;33m\]\u@\h\[\033[01;31m\] \W\$\[\033[00m\] &#x27;</span></span><br><span class="line"><span class="comment"># grep</span></span><br><span class="line"><span class="built_in">alias</span> grep=<span class="string">&#x27;grep --color=always&#x27;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>保存文件</p>
+</li>
+<li><p>重新打开终端</p>
+<p><img src="http://kim.jtsmart-ai.com/mdpic/2018-01-02-024438.png"></p>
+</li>
+</ol>
+<h2 id="配置说明"><a href="#配置说明" class="headerlink" title="配置说明"></a>配置说明</h2><p>栗子🌰：</p>
+<p>[\033[1;31m]</p>
+<ul>
+<li>底线：ANSI 色彩控制语法。\033 声明了转义序列的开始，然后是 [ 开始定义颜色。</li>
+<li>第一组数字：亮度 (普通0, 高亮度1, 闪烁2)。</li>
+<li>第二组数字：顏色代码。</li>
+<li>颜色: 30&#x3D;black 31&#x3D;red 32&#x3D;green 33&#x3D;yellow 34&#x3D;blue 35&#x3D;magenta 36&#x3D;cyan 37&#x3D;white</li>
+</ul>
+<p>显示内容配置：</p>
+<ul>
+<li>\a     ASCII响铃字符 (07)</li>
+<li>\d     “周 月 日”格式的日期</li>
+<li>\D{format}   参数format被传递给strftime(3)来构造自定格式的时间并插入提示符中；该参数为空时根据本地化设置自动生成格式。</li>
+<li>\e     ASCII转义字符（ESC) (033)</li>
+<li>\h     主机名在第一个点号前的内容</li>
+<li>\H     完全主机名</li>
+<li>\j     shell当前管理的任务数</li>
+<li>\l     shell终端设备的基本名称</li>
+<li>\n     新行</li>
+<li>\r     回车</li>
+<li>\s     shell的名称，$0的基本名称</li>
+<li>\t     当前时间（24小时） HH:MM:SS</li>
+<li>\T     当前时间（12小时） HH:MM:SS</li>
+<li>@     当前时间（12小时） am&#x2F;pm</li>
+<li>\A     当前时间（24小时） HH:MM</li>
+<li>\u     当前用户名称</li>
+<li>\v     bash版本(如”2.00″)</li>
+<li>\V     bash版本+补丁号(如”2.00.0″)</li>
+<li>\w     当前工作目录</li>
+<li>\W     当前工作目录的基本名称</li>
+<li>!     该命令的历史数（在历史文件中的位置）</li>
+<li>#     该命令的命令数（当前shell中执行的序列位置）</li>
+<li>$     根用户为”#”，其它用户为”$”</li>
+<li>\nnn   8进制数</li>
+<li>\     反斜杠</li>
+<li>[     表示跟在后面的是非打印字符，可用于shell的颜色控制</li>
+<li>]     表示非打印字符结束</li>
+</ul>
+</div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">KimMUMU</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2018/01/02/terminal-color-change/">http://example.com/2018/01/02/terminal-color-change/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com">KimMUMU's blog</a>！</span></div></div><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/terminal/">terminal</a><a class="post-meta__tags" href="/tags/%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/">主题美化</a></div><nav id="pagination"><div class="prev-post pull-left"><a href="/2018/01/14/function-programing/"><i class="fa fa-chevron-left">  </i><span>函数式编程笔记</span></a></div><div class="next-post pull-right"><a href="/2017/12/31/git-cmd/"><span>git的基本命令学习</span><i class="fa fa-chevron-right"></i></a></div></nav></div></div><footer class="footer-bg" style="background-image: url(http://kim.jtsmart-ai.com/DeviantArt.png)"><div class="layout" id="footer"><div class="copyright">&copy;2017 - 2023 By KimMUMU</div><div class="framework-info"><span>驱动 - </span><a target="_blank" rel="noopener" href="http://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 - </span><a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/hexo-theme-melody"><span>Melody</span></a></div><div class="footer_custom_text">hitokoto</div><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_page_pv"><i class="fa fa-file"></i><span id="busuanzi_value_page_pv"></span><span></span></span></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><script src="https://cdn.jsdelivr.net/npm/animejs@latest/lib/anime.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@latest/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-ui-pack@latest/velocity.ui.min.js"></script><script src="/js/utils.js?version=1.9.1"></script><script src="/js/fancybox.js?version=1.9.1"></script><script src="/js/sidebar.js?version=1.9.1"></script><script src="/js/copy.js?version=1.9.1"></script><script src="/js/fireworks.js?version=1.9.1"></script><script src="/js/transition.js?version=1.9.1"></script><script src="/js/scroll.js?version=1.9.1"></script><script src="/js/head.js?version=1.9.1"></script><script src="/js/search/local-search.js"></script><script>if(/Android|webOS|iPhone|iPod|iPad|BlackBerry/i.test(navigator.userAgent)) {
+  $('#nav').addClass('is-mobile')
+  $('footer').addClass('is-mobile')
+  $('#top-container').addClass('is-mobile')
+}</script><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章"></div></div></div><hr><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a target="_blank" rel="noopener" href="https://github.com/wzpan/hexo-generator-search" style="color:#49B1F5;">hexo-generator-search</a>
+ <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fa fa-times"></i></span></div><div class="search-mask"></div></body></html>
