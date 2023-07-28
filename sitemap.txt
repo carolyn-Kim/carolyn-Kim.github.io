@@ -1,7 +1,6 @@
 http://example.com/2023/07/28/Hexo-start-error/
 http://example.com/2018/08/22/update-ohmyzsh/
 http://example.com/2019/04/18/ui-record/
-http://example.com/2023/07/28/test/
 http://example.com/2018/01/02/terminal-color-change/
 http://example.com/2018/02/11/ssh-nopwd/
 http://example.com/2017/12/31/Shadowsocks/
