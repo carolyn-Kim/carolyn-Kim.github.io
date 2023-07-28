@@ -285,6 +285,27 @@
   </url>
   
   <url>
+    <loc>http://example.com/tags/ss/</loc>
+    <lastmod>2023-07-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/shadowsocks/</loc>
+    <lastmod>2023-07-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/kcptun/</loc>
+    <lastmod>2023-07-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/tags/terminal/</loc>
     <lastmod>2023-07-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -327,13 +348,6 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2023-07-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/tags/%E6%8B%B7%E8%B4%9D/</loc>
     <lastmod>2023-07-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -342,6 +356,13 @@
   
   <url>
     <loc>http://example.com/tags/%E5%A4%8D%E5%88%B6/</loc>
+    <lastmod>2023-07-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2023-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -376,6 +397,20 @@
   </url>
   
   <url>
+    <loc>http://example.com/tags/%E6%9B%B4%E6%96%B0/</loc>
+    <lastmod>2023-07-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/%E5%8D%87%E7%BA%A7/</loc>
+    <lastmod>2023-07-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/tags/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/</loc>
     <lastmod>2023-07-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -391,20 +426,6 @@
   
   <url>
     <loc>http://example.com/tags/js/</loc>
-    <lastmod>2023-07-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/%E6%9B%B4%E6%96%B0/</loc>
-    <lastmod>2023-07-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/%E5%8D%87%E7%BA%A7/</loc>
     <lastmod>2023-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -488,13 +509,6 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/oh-my-zsh/</loc>
-    <lastmod>2023-07-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/tags/Mac/</loc>
     <lastmod>2023-07-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -509,21 +523,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/ss/</loc>
-    <lastmod>2023-07-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/shadowsocks/</loc>
-    <lastmod>2023-07-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/kcptun/</loc>
+    <loc>http://example.com/tags/oh-my-zsh/</loc>
     <lastmod>2023-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -560,14 +560,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/javascript/</loc>
+    <loc>http://example.com/categories/jenkins/</loc>
     <lastmod>2023-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/jenkins/</loc>
+    <loc>http://example.com/categories/javascript/</loc>
     <lastmod>2023-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
